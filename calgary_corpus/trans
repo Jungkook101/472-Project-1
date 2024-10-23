@@ -1,1 +1,2738 @@
+Login: ian
+Password:
+Last login: Fri Aug 28 13:48:03 from vaxb
+This login: Fri Aug 28 14:18:21 from vaxb
+4.3 BSD+NFS UNIX #25: Fri Aug 28 08:08:07 MDT 1987
 
+There is a New version of the Verdix Ada compiler installed on Vaxc.  All
+persons using this compiler please contact Terry as soon as possible.  Also,
+if there is anyone using the nyu ada or telesoft ada compilers please let
+Terry know, we would like to remove them from the system, if they are not
+being used. (we need the disk space!) Thanks.
+
+The imagen is once again operational but with reduced capacity (one of the
+memory boards is being repaired).  Large documents may not work.
+
+vaxb!ian      ttyp4   Aug 28 14:18      (vaxb)
+Welcome to Freedman's Input Line Editor (FILE).  Version: 87-01-11
+Please wait until your shell prompt appears (ESC-? for help).
+hi, terminal is amb-xl
+You are already logged in somewhere
+Harold as adjunct??? -- and reply to his mail
+rlogin vaxb -8 | tee transcript?
+VAXB cd ~/courses/551cd ~/courses/551
+VAXB lsls
+assignments	core		info.sheet~	topics~
+assignments~	info.sheet	topics
+VAXB roff -a2 assignments; lpq -Palw2&roff -a2 assignments; lpq -Palw2&
+[1] 6894
+VAXB cd ../670cd ../670
+VAXB lsls
+601.synopsis	601.synopsis~	synopsis	synopsis~	temp
+VAXB cp ../533/info.sheet .cp ../533/info.sheet .
+VAXB e info.sheete info.sheet
+[60;0;0;60p[>52;54h[>30;37;38;39l[60;0;0;60p[>52;54h[>30;37;38;39l[H[J[60;1HLoading time...[H[60;16Hdone[HP`&~X4R\[60;1H[K[H.pn 0
+.ls1
+.ce2
+THE UNIVERSITY OF CALGARY
+DEPARTMENT OF COMPUTER SCIENCE
+.sp2
+.ps+2
+.ce
+CPSC 533 \(em Artificial Intelligence
+.ps-2
+.sp3
+.LB
+.NP
+.ul
+Instructor.
+Ian H Witten,  MA\ 786,  220-6780
+.sp
+.NP
+.ul
+Office hours.
+Mondays and Wednesdays 15.00-16.00
+.sp
+.NP
+.ul
+Tutorial instructor.
+Dave Maulsby, MA\ 358, 220-7683
+.sp
+.NP
+.ul
+Lectures.
+ST 130, Tuesdays and Thursdays 9.30-10.45
+.sp
+.NP
+.ul
+Labs.
+L01: SS\ 202, Mondays and Wednesdays 9.00-9.50;
+L02: SB\ 144A, Tuesdays and Thursdays 11.00-11.50
+.sp
+.NP
+.ul
+Course texts
+.sp
+Winston, P.H.
+\fIArtificial Intelligence\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.br
+Winston, P.H. & Horn, B.K.P.
+\fIL\s-2ISP\s+2\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp
+.NP
+.ul
+Assessment
+.ta \w'Midterm exam (in class time)    'u
+.sp
+Midterm exam (in class time)    \015%
+.br
+Final exam      \030%
+[7m-----Emacs: info.sheet          time and load   (Text Fill)----Top-------------[m[H[59;33H[7m2:20pm 3.04[1]   (Text Fill)----Top[m[Hno entries
+
+vaxb: sending to vaxa
+Rank   Owner      Job  Files                                 Total Size
+1st    ian        286  (standard input)                      25202 bytes
+[60;0;0;60p[>52;54h[>30;37;38;39l[H[J.pn 0
+.ls1
+.ce2
+THE UNIVERSITY OF CALGARY
+DEPARTMENT OF COMPUTER SCIENCE
+.sp2
+.ps+2
+.ce
+CPSC 533 \(em Artificial Intelligence
+.ps-2
+.sp3
+.LB
+.NP
+.ul
+Instructor.
+Ian H Witten,  MA\ 786,  220-6780
+.sp
+.NP
+.ul
+Office hours.
+Mondays and Wednesdays 15.00-16.00
+.sp
+.NP
+.ul
+Tutorial instructor.
+Dave Maulsby, MA\ 358, 220-7683
+.sp
+.NP
+.ul
+Lectures.
+ST 130, Tuesdays and Thursdays 9.30-10.45
+.sp
+.NP
+.ul
+Labs.
+L01: SS\ 202, Mondays and Wednesdays 9.00-9.50;
+L02: SB\ 144A, Tuesdays and Thursdays 11.00-11.50
+.sp
+.NP
+.ul
+Course texts
+.sp
+Winston, P.H.
+\fIArtificial Intelligence\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.br
+Winston, P.H. & Horn, B.K.P.
+\fIL\s-2ISP\s+2\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp
+.NP
+.ul
+Assessment
+.ta \w'Midterm exam (in class time)    'u
+.sp
+Midterm exam (in class time)    \015%
+.br
+Final exam      \030%
+[7m-----Emacs: info.sheet          2:20pm 3.04[1]   (Text Fill)----Top------------[m[H
+
+
+
+
+
+
+
+[5`[C[2@67[59;3H[7m**[m[9;8H[1@0[3P
+
+
+
+
+
+	
+M[12`[60;0;2;60p[16;1H[1L[60;0;0;60p[16;1HJohn H.	Andreae[8`[1P[15`, MA\ 7[29;1H[K[7m--**-Emacs: info.sheet          2:20pm 3.04[1]   (Text Fill)----Top------------[m
+[Cpn 0
+.ls1[K
+.ce2[K
+THE UNIVERSITY OF CALGARY
+DEPARTMENT OF COMPUTER SCIENCE
+[Csp2
+.ps+2
+.ce[K
+CPSC 670 \(em Artificial Intelligence[K
+[Cps-2
+sp3
+LB
+.NP[K
+ul
+Instructor.[K
+John H Andreae, MA\ 7[K
+Ian H Witten,  MA\ 786,  220-6780[K
+[Csp
+.NP[K
+.ul[K
+Office hours.[K
+Mondays and Wednesdays 15.00-16.00
+[Csp
+NP
+.ul[K
+Tutorial instructor.[K
+Dave Maulsby, MA\ 358, 220-7683
+.sp[K
+NP[16;22H[60;1HFind file: ~/courses/670/[29;36H[7m1pm 2.65[3[m[59;36H[7m1pm 2.65[3[m[60;26H~/tempo[14`temporary/andreae[K3[K[HThe Department welcomes John Andreae, on sabbatical from the University of
+Canterbury, Christchurch, New Zealand.  John is a Visiting Research Associate
+and will be with us until the end of November.  He is New Zealand's foremost
+researcher in Artificial Intelligence, and has a long-standing international
+reputation for his seminal work on the foundations of learning and the
+simulation of learning mechanisms.  He will be teaching the first part of CPSC
+670, and working with John Cleary and Bruce MacDonald (whose PhD theses he
+supervised in New Zealand), Brian Gaines, David Hill, Ian Witten, and anyone
+else who is interested![K
+[K
+John's office is room 782, phone 7299.  He and Molly Andreae are presently
+staying at the MacDonald/Stodart residence.
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[29;3H[7m---Emacs: andreae3            2:21pm 2.65[3]   (Text Fill)----All[m[H[45;22H82, [21`		[1@ [27` 220-7299
+[47;4H
+
+[50;14H[60;0;2;60p[51;1H[1L[60;0;0;60p[51;1HTuesdays and Thursdays 14.00-15.00 (both [29;36H[7m2pm 2.36[1[m[59;36H[7m2pm 2.36[1[m[51;42Hinstructors)[36`[54`Mondays and Wednesdays 15.\[26P[51;54H[60;0;2;60p[52;1H[1M[60;0;0;60p[51;54H[K[58;1H.NP[51;54H[52;4H[60;1HMark set[52;1H[60;1H[K[53;1H
+
+
+
+[60;0;2;60p[52;1H[5M[60;0;0;60p[54;1H.ul
+Lectures.
+ST 130, Tuesdays and Thursdays 9.30-10.45
+.sp
+.NP[52;1H[60;0;2;60p[1;1H[29M[60;0;0;60p[30;1H.ul
+Labs.
+L01: SS\ 202, Mondays and Wednesdays 9.00-9.50;
+L02: SB\ 144A, Tuesdays and Thursdays 11.00-11.50
+.sp
+.NP
+.ul
+Course texts
+.sp
+Winston, P.H.
+\fIArtificial Intelligence\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.br
+Winston, P.H. & Horn, B.K.P.
+\fIL\s-2ISP\s+2\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp
+.NP
+.ul
+Assessment
+.ta \w'Midterm exam (in class time)    'u
+.sp
+Midterm exam (in class time)    \015%
+.br
+Final exam      \030%
+.br
+Assignment 1    \010%
+.br
+Assignment 2    \010%[23;1H
+
+
+
+[3`[2@??[1@?[2P[4P[14`	[C[28`[C[1@1[1@1[1@.[2@00[1@-[1@1[2@2.[2@15[K
+[60;1HMark set[28;1H[60;1H[K[29;1H
+
+
+
+
+[60;0;2;60p[28;1H[6M[60;0;0;60p[53;1H.br
+Project:
+.br
+\0\0\0\0interim report  \010%
+.br
+\0\0\0\0final report    \025%[28;1H[59;36H[7m3pm 3.10[3[m[28;1H
+
+
+
+
+[60;0;2;60p[19;1H[11L[60;0;0;60p[1;2HNP[K
+ul[K
+Office hours.
+[Cuesdays and Thursdays 14.00-15.00 (both instructors)
+.sp[K
+NP[K
+ul[K
+Lectures.
+???, Tuesdays and Thursdays 11.00-12.15
+[Csp[K
+NP[K
+ul
+Course texts
+[Csp
+Winston, P.H.
+\fIArtificial Intelligence\fR.[K
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+[Cbr[60;1HFind file: ~/courses/670/[19;1HWinston, P.H. & Horn, B.K.P.
+\fIL\s-2ISP\s+2\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp
+.NP
+.ul
+Assessment
+.ta \w'Midterm exam (in class time)    'u
+.sp
+Midterm exam (in class time)    \015%
+[7m--**-Emacs: info.sheet          2:23pm 3.10[3]   (Text Fill)---- 2%------------[m[59;65H[7m 2%[m[60;26Hsynopsis[K[1;2Hpn 0
+ls1
+.ce2[K
+HE UNIVERSITY OF CALGARY[K
+DEPARTMENT OF COMPUTER SCIENCE
+[Csp2
+ps+2
+.ce[K
+CPSC 670 \(em Artificial Intelligence[K
+[Cps-2
+sp3
+For 1987-88, this course will take place in two parts:
+.LB[K
+ta \w'Winter 1988    'u +\w'Dr J.A. Andreae    'u
+Fall 1987       Dr J.H. Andreae Machine Learning
+.br[K
+Winter 1988     Dr I.H. Witten  Artificial Intelligence[K
+[CLE
+The parts will be assessed separately, and the first will be available as
+a 601 course for students wishing to take it alone.
+(This organization reflects a current proposal to replace CPSC 670 by several
+half courses in future, including CPSC 675 ``Machine Learning'' and
+CPSC 671 ``Artificial Intelligence''.)  \c
+Lectures will take place on Tuesdays and Thursdays, 9.30-10.45 am.
+.rh "Machine Learning."
+This will include the following topics:[K
+[CLB
+.NP[K
+[7m---Emacs: synopsis            2:23pm 3.10[3]   (Text Fill)----Top[m[H[CLB[K
+NP[K
+Dimensions of classification of machine learning problems and systems
+.NP[K
+Theoretical foundations of inductive inference
+[CNP[K
+Similarity-based learning: the generalization-as-search paradigm and its
+implementations
+.NP[K
+Explanation-based learning and systems which embody it
+[CNP[K
+Exploration and discovery mechanisms, functional induction and theory formation
+[CNP
+Learning procedural knowledge[K
+.NP[K
+Cognitive aspects of human learning.
+.LE[K
+The text for this part will be
+.LB[K
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1986)
+\fIMachine learning Volume 2\fP.[K
+Morgan Kaufmann, Los Altos, CA.[K
+.LE[K
+Other relevant books include[K
+[CLB[K
+Forsyth, R. and Rada, R. (1986)[K
+[Cul
+Machine learning: applications in expert systems and information retrieval.[29;65H[7m23%[m[H[29;36H[7m4pm 2.57[1[m[59;36H[7m4pm 2.57[1[m[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[44;1HMMMMM[60;1HMark set[39;1H[60;1H[K[40;1H
+
+
+
+
+
+
+
+
+
+
+[60;0;2;60p[39;1H[12M[60;0;0;60p[47;1HFinal exam      \030%
+.br
+Assignment 1    \010%
+.br
+Assignment 2    \010%
+.br
+Project:
+.br
+\0\0\0\0interim report  \010%
+.br
+\0\0\0\0final report    \025%
+.br[39;1H
+
+
+
+[4`[C[1@ [1@\[1@w[1@'[1@T[1@e[1@r[1@m[C[1@ [6`[7P[1@w[1@'[1@W[3@int[2@er[C[1@ [2@Te[1@r[1@m[C[1@ [C[1@ [C[2@  [2@'u[C[1@ [1@+[60;1HAuto-saving...[43;27H[60;15Hdone[43;27H[60;1H[K[43;27H[1P[44;4H[29;36H[7m5pm 2.14[3[m[59;36H[7m5pm 2.14[3[m[44;4H[60;0;2;60p[45;1H[1L[60;0;0;60p[45;1HFall Term	Assignment	7\(12%\7\(12%[34`07\(12%[35`	[60;0;2;60p[46;1H[1L[60;0;0;60p[46;1HPro[60;1HMark set[46;1H[60;1H[K[46;1H[K[60;0;2;60p[46;1H[1M[60;0;0;60p[58;1H\0\0\0\0final report    \025%[46;1H[K[60;0;2;60p[46;1H[1M[60;0;0;60p[58;1H.br[46;1H
+TFinal exam[2`aFinal exam[3`keFinal exam[5`-hFinal ex[8@am      [7`oFinal exam[8`meFinal exam[10` exam[8P[10`[C[C[C[C[C	[C[C230%230%[29;36H[7m6pm 3.05[4[m[59;36H[7m6pm 3.05[4[m[47;21H\30%(30%130%230%0%[K%[K[46;4HM			[44;4H
+			[27`	[C[1@\[1@0[46;4H
+			[C
+[60;0;2;60p[48;1H[1M[60;0;0;60p[58;9H____[48;1H[K[60;0;2;60p[48;1H[1M[60;0;0;60p[58;1H.br[48;1H[K[60;0;2;60p[48;1H[1M[60;0;0;60p[58;9H\h'-\w'total  'u'total\ \ 100%[48;1H[60;0;2;60p[48;1H[1M[60;0;0;60p[58;1H.sp[48;1HMM[K[60;0;2;60p[46;1H[1M[60;0;0;60p[58;1H.sp[46;1H[60;0;2;60p[46;1H[1M[60;0;0;60p[58;1H.ta \w'Demonstrations    'u[46;1H[53;1H[60;1HMark set[53;1H[60;0;2;60p[54;1H[2L[60;0;0;60p[53;1H.br[K
+Take-home exam  \022\(12%
+	____
+
+
+
+
+[K[54;1H
+.br[60;0;2;60p[56;1H[1L[60;0;0;60p[55;4H[K
+	____MMM[K[60;0;2;60p[53;1H[1M[60;0;0;60p[58;1H.sp[53;1HMMMMMM[8@	
+
+[8@	[C[C[C[C[C[C		pinterim report[18`rointerim report       \010%[20`ginterim report[21`reinterim report[23`ssinterim report			 report \010%[K			[50;4H
+[8@	[C[C[50;4H[29;36H[7m7pm 3.01 Mail[2]   (Text Fill)----23%[m[59;36H[7m7pm 3.01 Mail[2]   (Text Fill)---- 2%[m[50;4H[49;34H[26`		[C[C\10%010%510%0%[K%[K[50;4H[51;38H%[K%[K1%2%\%(%1%2%[50;4H[K[60;0;2;60p[50;1H[1M[60;0;0;60p[50;1H[K[58;1H.sp[50;1H[60;0;2;60p[50;1H[1M[60;0;0;60p[58;1H.ta \w'Demonstrations    'u[50;1H[60;1HMark set[50;1H[60;0;2;60p[51;1H[2L[60;0;0;60p[51;9H\0\0\0\0final report    \012\(12%
+.br[60;0;2;60p[53;1H[2L[60;0;0;60p[53;9H\0\0\0\0final report    \012\(12%
+.br
+
+
+
+
+
+[K[53;1H[11`[C[C[C[C		ifinal report[18`nfinal report[19`-final report[20`cfinal repor[8@t       [21`lafinal report[23`ssfinal report			 final report[26`prfinal report[28`efinal repor[8@t       [29`sfinal report[30`efinal report[31`ntatfinal report[35`ionfinal rep[8@ort     [38` report[8P[38`[C[8P	[C[C[1@\[1@0[1@2[1@\[1@(	[C12\(12%[50`2\(12%[K[50`\(12%[K[50`(12%[K12%[K2%[K%[K[54;4H
+			[C[60;0;2;60p[56;1H[1L[60;0;0;60p[56;1H.spMMMM[51;42H[50;4H[49;39HMM		[45;43H[29;36H[7m8pm 2.87[m[59;36H[7m8pm 2.87[m[45;43H[60;0;2;60p[1;1H[29M[60;0;0;60p[30;1H.br
+	\h'-\w'total  'u'total\ \ 100%
+.sp
+.sp
+.ta \w'Demonstrations    'u
+.NP
+.ul
+Guest lectures.
+There may be guest lectures on topics such as:
+.LB
+.NP
+.ul
+L\s-2ISP\s+2 ``Flavors''
+.NP
+.ul
+an advanced AI programming environment (eg KnowledgeCraft)
+.NP
+.ul
+an implementation of the ``version space'' concept learning technique
+.NP
+.ul
+the Japanese initiatives in new generation computing.
+.LE
+.NP
+.ul
+Demonstrations.
+It is hoped to arrange demonstrations of
+.LB
+.NP[16;43H[15;4H
+[60;1HMark set[16;1H[60;1H[K[19;1H
+
+
+
+
+
+
+[8@	
+[60;0;2;60p[16;1H[11M[60;0;0;60p[48;1H.ul
+NEXPERT expert system shell[60;1HMark set[16;1H[60;0;2;60p[16;1H[11L[60;0;0;60p[16;1HFall Term       Assignment      \0\07\(12%
+.br
+	Project:
+.br
+	\0\0\0\0progress report \0\05%
+.br
+	\0\0\0\0final report    \012\(12%
+.br
+	\0\0\0\0in-class presentation   \0\02\(12%
+.br
+	Take-home exam  \022\(12%
+[60;0;2;60p[28;1H[11L[60;0;0;60p[27;1HFall Term       Assignment      \0\07\(12%
+.br
+	Project:
+.br
+	\0\0\0\0progress report \0\05%
+.br
+	\0\0\0\0final report    \012\(12%
+.br
+	\0\0\0\0in-class presentation   \0\02\(12%
+.br
+	Take-home exam  \022\(12%
+.sp[60;1H[K[37;1HMMMMMMMMMM[60;0;2;60p[39;1H[1L[60;0;0;60p[60;0;21;60p[27;1H[1L[60;0;0;60p[27;1H.sp
+WFall Term[2`inFall Term[4`[60;1HAuto-saving...[28;4H[60;15Hdone[28;4H[60;1H[K[28;4HterFall Term[7` Term    [7`[12`	CAssignment[18`lAssignment[19`aAssignment[20`sAssignment[21`sAssignment[22` Assignmen[8@t       [23`pAssignment[24`reAssignment[26`sAssignment[27`eAssignment[28`nAssignment[29`tAssignment[30`aAssignmen[8@t       [31`tioAssignment[34`nAssignment[35`  [8Ps[43`[29;4H
+		[32;39H[33;4H[34;42H[35;4H[36;43H[37;4H[38;13H	-home exam    	T-home exam[10`e-home exam[11`rm-home exam[13` -home exam[14`pa-home ex[8@am      [16`per-home exam[19` exam[8P[19`[C    [19`[59;36H[7m9pm 2.12 Mail[1[m[38;19H[39;4H[60;0;2;60p[40;1H[1M[60;0;0;60p[58;1H.ul[39;4H[40;13H[41;4H[42;39H
+[60;1HMark set[43;1H[60;1H[K[H
+
+an implementation of the ``version space'' concept learning technique
+.NP[K
+ul
+the Japanese initiatives in new generation computing.
+[CLE
+.NP[K
+.ul[K
+Demonstrations.
+It is hoped to arrange demonstrations of
+[CLB
+.NP[K
+ul[K
+NEXPERT expert system shell
+.NP[K
+ul
+Xerox L\s-2ISP\s+2 Machine
+[CNP
+.ul[K
+Loops programming environment (film).
+.LE[K
+NP
+.ul[K
+Facilities.
+VAXA[K
+LE
+.bp[K
+sh "About the course"
+.sp[K
+Winston's textbook is excellent and has been widely acclaimed.
+I think that in the main it is quite understandable, probably too easy.
+You should \fIstudy it carefully\fR (not just read it casually).
+Set aside some time each week.[K
+Do some of the exercises.
+The main function of the lectures is to take you through the text,
+providing additional explanation where necessary.
+There will not be time, however, to cover everything in lectures.
+[Cp
+This is not a course on programming, and we will not be talking much about
+programming in lectures.
+However, by the end of the course all students are expected to have a working
+knowledge of the L\s-2ISP\s+2 language, and assignments and projects are to be
+done in L\s-2ISP\s+2.
+People well-educated in AI need to know the basics of
+\fIboth\fR P\s-2ROLOG\s+2 and L\s-2ISP\s+2.
+Each has strengths and weaknesses that it is important to understand, and
+can only be appreciated properly through experience.
+.pp[K
+Many students will have had some prior exposure to L\s-2ISP\s+2, and all are
+well versed in P\s-2ROLOG\s+2.
+You are expected to pick up L\s-2ISP\s+2 programming by yourself.
+You do \fInot\fR need to become expert in L\s-2ISP\s+2.
+There will be no exam questions involving tricky language details \(em
+at most you might have to read some code or discuss pros and cons of AI
+programming in L\s-2ISP\s+2 vs P\s-2ROLOG\s+2 vs P\s-2ASCAL\s+2.
+[Cbp
+sh "Planned timetable"[59;71H[7m8[m[H[Cbp
+sh "Planned timetable"
+.sp[K
+nf
+ta \w'beginning  'u +3i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+.ul[K
+Week    Material covered        Reading Deadlines
+[Cul
+beginning
+.sp[K
+\05 Jan Introduction; L\s-2ISP\s+2      AI Ch 1 Tue     Assignment 1 set
+                L\s-2ISP\s+2 Ch 1-4
+[Csp
+12 Jan  Representations; blocks worlds  AI Ch 2 Tue     Assignment 2 set
+                L\s-2ISP\s+2 Ch 4-7, 13
+[Csp
+19 Jan  Constraints     AI Ch 3 Tue     Assignment 1 due
+.sp[K
+26 Jan  Searching       AI Ch 4 Tue     Assignment 2 due
+                L\s-2ISP\s+2 Ch 11
+.sp[K
+\02 Feb Control strategies; objects, Flavors    AI Ch 5 Tue     Project proposa\l due
+                L\s-2ISP\s+2 Ch 16
+.sp[K
+\09 Feb More on OOP (Prolog, Smalltalk) AI Ch 6
+        Rule-based systems      L\s-2ISP\s+2 Ch 18
+[Cs
+16 Feb  \fI(reading week \(em no classes)\fR
+
+23 Feb  \(em            Tue     Mid-term exam[K
+        More on rule-based systems[K
+.sp[K
+\02 Mar Logic and planning      AI Ch 7 Tue     Project interim report due
+.sp[K
+\09 Mar Knowledge representation;       AI Ch 8[K
+        using frames; CD theory L\s-2ISP\s+2 Ch 22
+.sp[K
+16 Mar  Understanding natural language  AI Ch 9
+                L\s-2ISP\s+2 Ch 19-21[K
+.sp[K
+23 Mar  Vision???       AI Ch 10[K
+                (L\s-2ISP\s+2 Ch 10?)[K
+.sp[K
+30 Mar  Concept learning        AI Ch 11[K
+        Version-space technique[K
+.sp[K
+\06 Apr Learning rules  AI Ch 12[K
+        Summary
+                        Fri     Project final report due[K
+.sp[K
+??? Apr Final exam (scheduled by Registrar)[K
+.fi[K
+.bp[K
+.sh "Bibliography"[K
+.sp[K
+Here is a representative selection of recent books on AI, with a bias towards
+practical aspects.[K[59;70H[7m20[m[H[60;0;2;60p[1;1H[30L[60;0;0;60p[1;1HAssessment
+.ta \w'Winter Term    'u +\w'Midterm exam (in class time)    'u
+.sp
+Fall Term       Assignment      \0\07\(12%
+.br
+	Project:
+.br
+	\0\0\0\0progress report \0\05%
+.br
+	\0\0\0\0final report    \012\(12%
+.br
+	\0\0\0\0in-class presentation   \0\02\(12%
+.br
+	Take-home exam  \022\(12%
+.sp
+Winter Term     Class presentations     \0\07\(12%
+.br
+	Project:
+.br
+	\0\0\0\0progress report \0\05%
+.br
+	\0\0\0\0final report    \012\(12%
+.br
+	\0\0\0\0in-class presentation   \0\02\(12%
+.br
+	Term paper      \022\(12%
+.sp
+	____
+.br
+	\h'-\w'total  'u'total\ \ 100%[59;70H[7m 4[m[30;1H[59;35H[7m30pm 1.44[m[30;1H[60;1HWrote /vaxb.userb/profs/ian/courses/670/info.sheet[30;1H[60;0;0;60p[45;1H[14M[H[3M[13;1H[17L[60;0;0;60p[60;1H[K[HWinter Term     Class prese[8@ntations[11;10Herm paper    
+
+	____
+.br
+	\h'-\w'total  'u'total\ \ 100%
+.bp
+.sh "Planned timetable"
+.sp
+.nf
+.ta \w'beginning  'u +3i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+.ul
+Week    Material covered        Reading Deadlines
+.ul
+beginning
+.sp
+\05 Jan Introduction; L\s-2ISP\s+2      AI Ch 1 Tue     Assignment 1 set
+		L\s-2ISP\s+2 Ch 1-4
+.sp
+[7m-----Emacs: info.sheet          2:30pm 1.44 Mail[1]   (Text Fill)---- 6%-------[m[59;3H[7m---Emacs: info.sheet          2:30pm 1.44 Mail[1]   (Text Fill)---- 6[m[15;1H[60;1HFind file: ~/courses/670/../551/info.sheet[K[H.pn 0[K
+ls1
+.ce2[K
+THE UNIVERSITY OF CALGARY
+DEPARTMENT OF COMPUTER SCIENCE[K
+[Csp2
+.ps+2[K
+ce
+CPSC 551 \(em Computer Graphics I[K
+[Cps-2
+.sp3[K
+LB
+.NP[K
+ul
+Instructor.[K
+Ian H Witten,  MA\ 786,  220-6780[17;3Hp[K
+NP
+ul
+Office hours.[K
+Tuesdays and Thursdays 14.00-15.00
+.sp[K
+NP
+.ul[K
+Tutorial assistants.
+Jeff Allan, MA\ 324, 220-7686, and Dave Maulsby, MA\ 358, 220-7683[K
+.sp[K
+NP[29;23H[7m<2>       2:30pm 1.44 Mail[1]   (Text Fill)----Top[m[H[60;1HI-search:[H[60;10H P ...[H[60;12H[K[H[3`[60;12Hl ...[1;3H[60;13Ha ...[1;3H[60;14Hn ...[1;3H[60;15Hn ...[1;3H[60;16He ...[1;3H[60;17Hd ...[1;3H[60;18H[K[1;3HThis is not a course on programming, and we will not be talking much about
+programming in lectures.
+However, by the end of the course all students are expected to have a working
+knowledge of the C programing language, and assignments and projects are to be
+coded in C.[K
+The text gives all examples in Pascal for pedagogical reasons only; part of the
+assignment work involves demonstrating your understanding of algorithms by
+recoding them.
+[C is the principal modern graphics programming language in use today, and
+anyone well-educated in computer graphics need to know how to use it and to
+interface with programs written in it.
+You are expected to pick up C programming by yourself; the TA will be more than
+happy to help you with language constructs and points of syntax.
+[Cbp
+.sh "Planned timetable"
+.sp[K
+nf
+ta \w'beginning  'u +2.5i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+
+Week    Material covered        Reading Deadlines
+.ul[K
+beginning
+[Csp
+\07 Sep                 Thu     All assignments set
+.sp[K
+14 Sep[K
+
+21 Sep[29;70H[7m66%[m[15;13H[60;1HMark set[K[15;13H[60;1H[K[15;13H[60;1HMark set[15;1H[60;1H[K[H.sp[K
+21 Sep[K
+.sp[K
+28 Sep                  Tue     Assignment 1 due[K
+.sp[K
+\05 Oct[K
+.sp[K
+12 Oct                  Thu     Assignment 2 due
+.sp[K
+19 Oct                  Thu     Test 1[K
+.sp[K
+26 Oct[K
+.sp[K
+\02 Nov                 Tue     Assignment 3 due[15;3Hp[K
+\09 Nov
+                        Thu     Reading days; no class
+[Csp[K
+16 Nov                  Tue     Test 2
+.sp[K
+23 Nov
+.sp[K
+30 Nov
+.sp[K
+\07 Dec                 Tue     Test 3
+                        Thu     Assignment 4 due
+[Cfi
+[K[29;70H[7mBot[m[H[Cfi
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[H
+[60;0;2;60p[1;1H[29M[60;0;0;60p[30;17HL\s-2ISP\s+2 Ch 4-7, 13
+.sp
+19 Jan  Constraints     AI Ch 3 Tue     Assignment 1 due
+.sp
+26 Jan  Searching       AI Ch 4 Tue     Assignment 2 due
+		L\s-2ISP\s+2 Ch 11
+.sp
+\02 Feb Control strategies; objects, Flavors    AI Ch 5 Tue     Project proposa\l due
+		L\s-2ISP\s+2 Ch 16
+.sp
+\09 Feb More on OOP (Prolog, Smalltalk) AI Ch 6
+	Rule-based systems      L\s-2ISP\s+2 Ch 18
+.sp
+16 Feb  \fI(reading week \(em no classes)\fR
+.sp
+23 Feb  \(em            Tue     Mid-term exam
+	More on rule-based systems
+.sp
+\02 Mar Logic and planning      AI Ch 7 Tue     Project interim report due
+.sp
+\09 Mar Knowledge representation;       AI Ch 8
+	using frames; CD theory L\s-2ISP\s+2 Ch 22
+.sp
+16 Mar  Understanding natural language  AI Ch 9
+		L\s-2ISP\s+2 Ch 19-21
+.sp
+23 Mar  Vision???       AI Ch 10
+		(L\s-2ISP\s+2 Ch 10?)[15;1H
+
+[60;1HMark set[17;1H[60;0;2;60p[18;1H[39L[60;0;0;60p[18;1H.sp
+.nf
+.ta \w'beginning  'u +2.5i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+.ul
+Week    Material covered        Reading Deadlines
+.ul
+beginning
+.sp
+\07 Sep                 Thu     All assignments set
+.sp
+14 Sep
+.sp
+21 Sep
+.sp
+28 Sep                  Tue     Assignment 1 due
+.sp
+\05 Oct
+.sp
+12 Oct                  Thu     Assignment 2 due
+.sp
+19 Oct                  Thu     Test 1
+.sp
+26 Oct
+.sp
+\02 Nov                 Tue     Assignment 3 due
+.sp
+\09 Nov
+			Thu     Reading days; no class
+.sp
+16 Nov                  Tue     Test 2
+.sp
+23 Nov
+.sp
+30 Nov
+.sp
+\07 Dec                 Tue     Test 3
+			Thu     Assignment 4 due
+.fi
+.sh "Planned timetable"[59;3H[7m**-Emacs: info.sheet          2:30pm 1.44 Mail[1]   (Text Fill)---- 5[m[56;1H
+
+
+
+[K[H.sp[K
+nf
+.ta \w'beginning  'u +3i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+[Cul
+Week    Material covered        Reading Deadlines
+[Cul
+beginning[K
+[Csp
+\05 Jan Introduction; L\s-2ISP\s+2      AI Ch 1 Tue     Assignment 1 set
+                L\s-2ISP\s+2 Ch 1-4
+.sp[K
+12 Jan  Representations; blocks worlds  AI Ch 2 Tue     Assignment 2 set
+	        L\s-2ISP\s+2 Ch 4-7, 13
+[Csp
+19 Jan  Constraints     AI Ch 3 Tue     Assignment 1 due
+[Cs
+26 Jan  Searching       AI Ch 4 Tue     Assignment 2 due
+                L\s-2ISP\s+2 Ch 11
+[Csp
+\02 Feb Control strategies; objects, Flavors    AI Ch 5 Tue     Project proposa\l due
+                L\s-2ISP\s+2 Ch 16[K
+[Csp
+\09 Feb More on OOP (Prolog, Smalltalk) AI Ch 6
+        Rule-based systems      L\s-2ISP\s+2 Ch 18
+.sp[K
+16 Feb  \fI(reading week \(em no classes)\fR
+.sp[K
+23 Feb  \(em            Tue     Mid-term exam
+        More on rule-based systems
+
+\02 Mar Logic and planning      AI Ch 7 Tue     Project interim report due[34;3H9 Mar Knowledge representation;       AI Ch 8
+        using frames; CD theory L\s-2ISP\s+2 Ch 22
+.sp[K
+16 Mar  Understanding natural language  AI Ch 9
+                L\s-2ISP\s+2 Ch 19-21[K
+
+[C3 Mar  Vision???       AI Ch 10
+                (L\s-2ISP\s+2 Ch 10?)
+.sp[K
+30 Mar  Concept learning        AI Ch 11
+        Version-space technique
+.sp[K
+\06 Apr Learning rules  AI Ch 12
+        Summary[K
+                        Fri     Project final report due
+.sp[K
+??? Apr Final exam (scheduled by Registrar)
+.fi[K
+b
+.sh "Bibliography"[K
+.sp[K
+Here is a representative selection of recent books on AI, with a bias towards
+practical aspects.[K
+[CLB
+ti-4n[59;70H[7m11[m[H[CLB
+ti-4n
+Barr, A. and Feigenbaum, E.A. (Editors)  \c[K
+\fIThe handbook of Artificial Intelligence\fR.
+Kaufmann, Los Altos, CA, \fIVolume I\fR, 1981,[K
+and \fIVolume II\fR, 1982.
+.sp[K
+ti-4n
+Bratko, I.[K
+\fIP\s-2ROLOG\s+2 programming for artificial intelligence\fR.
+Addison-Wesley, Wokingham, England, 1986.
+.sp[K
+.ti-4n[K
+Bundy, A.
+\fIThe computer modelling of mathematical reasoning\fR.[K
+Academic Press, London, 1983.
+.sp[K
+.ti-4n[K
+Bundy, A. (Editor)
+[CfICatalogue of Artificial Intelligence tools\fR.[K
+Springer-Verlag, Berlin, 1984.
+.sp[K
+ti-4n
+Cohen, P.R. and Feigenbaum, E.A. (Editors)  \c[K
+\fIThe handbook of Artificial Intelligence Volume III\fR.
+Kaufmann, Los Altos, CA, 1982.
+.sp[K
+ti-4n
+Charniak E., Riesbeck, C.K. and McDermott, D.V.
+\fIArtificial intelligence programming\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1980.
+.sp[K
+ti-4n
+Gevarter, W.B.[K
+\fIIntelligent machines\fR.[K
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+.sp[K
+.ti-4n[K
+Michalski, R.S., Carbonnell, J.G., and Mitchell, T.M. (Editors)  \c
+\fIMachine Learning\fR, Tioga, Palo Alto, CA, 1983, and
+\fIMachine Learning Volume II\fR,[K
+Kaufmann, Los Altos, CA, 1986.
+.sp[K
+.ti-4n[K
+Nilsson, N.J.
+[CfIPrinciples of artificial intelligence\fR.
+Tioga, Palo Alto, CA, 1980.
+.sp[K
+ti-4n
+Schank, R.C. and Riesbeck, C.K.[K
+\fIInside computer understanding: five programs plus miniatures\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1981.[53;3Hp[K
+ti-4n
+Sowa, J.F.[K
+\fIConceptual structures\fR.
+Addison-Wesley, Reading, Massachusetts, 1984.
+[Csp[K[59;70H[7m22[m[H[59;36H[7m1pm 1.42 Mail[2[m[HAddison-Wesley, Reading, Massachusetts, 1984.
+[Csp[K
+.ti-4n[K
+Waterman, D.A.[K
+\fIA guide to expert systems\fR.[K
+Addison-Wesley, Reading, MA, 1985.
+
+
+Wilensky, R.[10;4HL\s-2ISP\s+2craft\fR.  W.W.Norton, New York, 1984.[K
+.sp[K
+ti-4n
+Winograd, T.
+\fILanguage as a cognitive process.  Volume I \(em Syntax\fR.
+Addison-Wesley, Reading, Massachusetts, 1984.[K
+.sp[K
+ti-4n
+Winston, P.H.
+\fIArtificial Intelligence\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp[K
+ti-4n
+Winston, P.H. & Horn, B.K.P.
+\fIL\s-2ISP\s+2\fR.[K
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.LE[K
+bp 0
+ce2[K
+THE UNIVERSITY OF CALGARY[K
+DEPARTMENT OF COMPUTER SCIENCE[K
+.sp2[K
+ps+2
+ce[K
+CPSC 533 \(em Artificial Intelligence
+.ps-2[K
+.sh "Assignment 1.  Introduction to \s-2LISP\s+2"
+(10% of course marks)
+[Csp[K
+Fully commented code, together with answers to the questions posed in Q.3,
+must be handed in on Tuesday January 20th.[K
+There will be[K
+.ul[K
+no extension of this deadline, except for good, documented, medical reasons.
+[CLB "1.  "
+.NI "1.  "[K
+1.\ \ \c[K
+Write a recursive function \s-2POWER-OF-TWO\s+2 that computes the
+\fIn\fRth power of two, eg
+(\s-2POWER-OF-TWO\s+2 100) returns 1267650600228229401496703205376.
+[A simple test of function-definition and recursion.]
+.sp[K
+.NI "1.  "[K
+2.\ \ \c
+Write your own version of the Lisp function \s-2ASSOC\s+2.
+\s-2ASSOC\s+2 ``looks up'' a value in a list of lists, and returns the first
+list it finds whose first element matches the desired value.
+For example,[K
+(\s-2ASSOC\s+2 '\s-2Y\s+2 '((\s-2X\s+2 \s-2A\s+2) (\s-2Y\s+2 \s-2B\s+2) (\s-2Z\\[70`[7m3[m[H.sp[K
+nf
+a \w'beginning  'u +3i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+.ul[K
+Week    Material covered        Reading Deadlines
+.ul[K
+beginning
+[Csp[K
+\05 Jan Introduction; L\s-2ISP\s+2      AI Ch 1 Tue     Assignment 1 set
+                L\s-2ISP\s+2 Ch 1-4[K
+
+12 Jan  Representations; blocks worlds  AI Ch 2 Tue     Assignment 2 set
+                L\s-2ISP\s+2 Ch 4-7, 13
+.sp[K
+19 Jan  Constraints     AI Ch 3 Tue     Assignment 1 due
+
+26 Jan  Searching       AI Ch 4 Tue     Assignment 2 due
+                L\s-2ISP\s+2 Ch 11
+.sp[K
+\02 Feb Control strategies; objects, Flavors    AI Ch 5 Tue     Project proposa\l due
+                L\s-2ISP\s+2 Ch 16
+.sp[K
+09 Feb More on OOP (Prolog, Smalltalk) AI Ch 6
+        Rule-based systems      L\s-2ISP\s+2 Ch 18[K
+[Csp
+16 Feb  \fI(reading week \(em no classes)\fR
+[Csp[K
+23 Feb  \(em            Tue     Mid-term exam
+        More on rule-based systems[31;4H[K
+\02 Mar Logic and planning      AI Ch 7 Tue     Project interim report due
+[Csp
+\09 Mar Knowledge representation;       AI Ch 8
+        using frames; CD theory L\s-2ISP\s+2 Ch 22[36;3Hp[K
+16 Mar  Understanding natural language  AI Ch 9
+                L\s-2ISP\s+2 Ch 19-21
+.sp[K
+23 Mar  Vision???       AI Ch 10[K
+                (L\s-2ISP\s+2 Ch 10?)
+[Csp
+30 Mar  Concept learning        AI Ch 11[K
+        Version-space technique
+[Csp[K
+\06 Apr Learning rules  AI Ch 12
+        Summary[K
+                        Fri     Project final report due
+.sp[K
+??? Apr Final exam (scheduled by Registrar)[K
+[Cfi
+bp[K
+.sh "Bibliography"
+.sp[K
+Here is a representative selection of recent books on AI, with a bias towards
+practical aspects.[K
+.LB[K
+.ti-4n[K[59;70H[7m11[mM[1;2HLB
+ti-4n
+Barr, A. and Feigenbaum, E.A. (Editors)  \c[K
+\fIThe handbook of Artificial Intelligence\fR.
+Kaufmann, Los Altos, CA, \fIVolume I\fR, 1981,[K
+and \fIVolume II\fR, 1982.
+.sp[K
+ti-4n
+Bratko, I.[K
+\fIP\s-2ROLOG\s+2 programming for artificial intelligence\fR.
+Addison-Wesley, Wokingham, England, 1986.
+.sp[K
+.ti-4n[K
+Bundy, A.
+\fIThe computer modelling of mathematical reasoning\fR.[K
+Academic Press, London, 1983.
+.sp[K
+.ti-4n[K
+Bundy, A. (Editor)
+[CfICatalogue of Artificial Intelligence tools\fR.[K
+Springer-Verlag, Berlin, 1984.
+.sp[K
+ti-4n
+Cohen, P.R. and Feigenbaum, E.A. (Editors)  \c[K
+\fIThe handbook of Artificial Intelligence Volume III\fR.
+Kaufmann, Los Altos, CA, 1982.
+.sp[K
+ti-4n
+Charniak E., Riesbeck, C.K. and McDermott, D.V.
+\fIArtificial intelligence programming\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1980.
+.sp[K
+ti-4n
+Gevarter, W.B.[K
+\fIIntelligent machines\fR.[K
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+.sp[K
+.ti-4n[K
+Michalski, R.S., Carbonnell, J.G., and Mitchell, T.M. (Editors)  \c
+\fIMachine Learning\fR, Tioga, Palo Alto, CA, 1983, and
+\fIMachine Learning Volume II\fR,[K
+Kaufmann, Los Altos, CA, 1986.
+.sp[K
+.ti-4n[K
+Nilsson, N.J.
+[CfIPrinciples of artificial intelligence\fR.
+Tioga, Palo Alto, CA, 1980.
+.sp[K
+ti-4n
+Schank, R.C. and Riesbeck, C.K.[K
+\fIInside computer understanding: five programs plus miniatures\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1981.[53;3Hp[K
+ti-4n
+Sowa, J.F.[K
+\fIConceptual structures\fR.
+Addison-Wesley, Reading, Massachusetts, 1984.
+[Csp[K[59;70H[7m22[m[H
+M[Csp
+nf[K
+.ta \w'beginning  'u +3i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+.ul[K
+Week    Material covered        Reading Deadlines
+.ul[K
+beginning
+[Csp[K
+\05 Jan Introduction; L\s-2ISP\s+2      AI Ch 1 Tue     Assignment 1 set
+                L\s-2ISP\s+2 Ch 1-4[K
+.sp[K
+12 Jan  Representations; blocks worlds  AI Ch 2 Tue     Assignment 2 set
+                L\s-2ISP\s+2 Ch 4-7, 13
+.sp[K
+19 Jan  Constraints     AI Ch 3 Tue     Assignment 1 due
+.sp[K
+26 Jan  Searching       AI Ch 4 Tue     Assignment 2 due
+                L\s-2ISP\s+2 Ch 11
+.sp[K
+02 Feb Control strategies; objects, Flavors    AI Ch 5 Tue     Project proposa\l due[K
+                L\s-2ISP\s+2 Ch 16
+[Csp[K
+\09 Feb More on OOP (Prolog, Smalltalk) AI Ch 6
+        Rule-based systems      L\s-2ISP\s+2 Ch 18[K
+.sp[K
+16 Feb  \fI(reading week \(em no classes)\fR
+[Csp[K
+23 Feb  \(em            Tue     Mid-term exam[K
+        More on rule-based systems[K
+.sp[K
+\02 Mar Logic and planning      AI Ch 7 Tue     Project interim report due
+[Csp[K
+\09 Mar Knowledge representation;       AI Ch 8
+        using frames; CD theory L\s-2ISP\s+2 Ch 22
+.sp[K
+16 Mar  Understanding natural language  AI Ch 9
+                L\s-2ISP\s+2 Ch 19-21
+.sp[K
+23 Mar  Vision???       AI Ch 10[K
+                (L\s-2ISP\s+2 Ch 10?)
+.sp[K
+30 Mar  Concept learning        AI Ch 11
+        Version-space technique
+.sp[K
+06 Apr Learning rules  AI Ch 12[K
+        Summary[K
+                        Fri     Project final report due
+[Csp[K
+??? Apr Final exam (scheduled by Registrar)
+.fi[K
+.bp[K
+h "Bibliography"
+[Csp[K
+Here is a representative selection of recent books on AI, with a bias towards
+practical aspects.[K
+.LB[K
+ti-4n[59;70H[7m11[mMMMMMMM[60;0;2;60p[1;1H[51M[60;0;0;60p[8;1HBarr, A. and Feigenbaum, E.A. (Editors)  \c
+\fIThe handbook of Artificial Intelligence\fR.
+Kaufmann, Los Altos, CA, \fIVolume I\fR, 1981,
+and \fIVolume II\fR, 1982.
+.sp
+.ti-4n
+Bratko, I.
+\fIP\s-2ROLOG\s+2 programming for artificial intelligence\fR.
+Addison-Wesley, Wokingham, England, 1986.
+.sp
+.ti-4n
+Bundy, A.
+\fIThe computer modelling of mathematical reasoning\fR.
+Academic Press, London, 1983.
+.sp
+.ti-4n
+Bundy, A. (Editor)
+\fICatalogue of Artificial Intelligence tools\fR.
+Springer-Verlag, Berlin, 1984.
+.sp
+.ti-4n
+Cohen, P.R. and Feigenbaum, E.A. (Editors)  \c
+\fIThe handbook of Artificial Intelligence Volume III\fR.
+Kaufmann, Los Altos, CA, 1982.
+.sp
+.ti-4n
+Charniak E., Riesbeck, C.K. and McDermott, D.V.
+\fIArtificial intelligence programming\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1980.
+.sp
+.ti-4n
+Gevarter, W.B.
+\fIIntelligent machines\fR.
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+.sp
+.ti-4n
+Michalski, R.S., Carbonnell, J.G., and Mitchell, T.M. (Editors)  \c
+\fIMachine Learning\fR, Tioga, Palo Alto, CA, 1983, and
+\fIMachine Learning Volume II\fR,
+Kaufmann, Los Altos, CA, 1986.
+.sp
+.ti-4n
+Nilsson, N.J.
+\fIPrinciples of artificial intelligence\fR.
+Tioga, Palo Alto, CA, 1980.
+.sp
+.ti-4n
+Schank, R.C. and Riesbeck, C.K.
+\fIInside computer understanding: five programs plus miniatures\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1981.
+.sp[H[Cs
+Winter Term     Class presentations     \0\07\(12%
+[Cbr
+        Project:[K
+.br[K
+        \0\0\0\0progress report \0\05%
+[Cbr[K
+        \0\0\0\0final report    \012\(12%[K
+.br[K
+        \0\0\0\0in-class presentation   \0\02\(12%
+.br[K
+        Term paper      \022\(12%
+[Csp[K
+        ____
+.br[K
+        \h'-\w'total  'u'total\ \ 100%[K
+[Cb
+sh "Planned timetable"
+.sp[K
+.nf[K
+.ta \w'beginning  'u +2.5i +\w'L\s-2ISP\s+2 Ch 0-0, 00  'u +\w'Mon 'u
+[Cul
+Week    Material covered        Reading Deadlines
+.ul[K
+beginning[K
+.sp[K
+\07 Sep                 Thu     All assignments set
+[Csp[K
+14 Sep[K
+.sp[K
+21 Sep[K
+
+28 Sep                  Tue     Assignment 1 due
+.sp[K
+05 Oct[K
+.sp[K
+12 Oct                  Thu     Assignment 2 due
+[Csp[K
+19 Oct                  Thu     Test 1
+.sp[K
+26 Oct[K
+
+\02 Nov                 Tue     Assignment 3 due
+.sp[K
+09 Nov[K
+                        Thu     Reading days; no class
+.sp[K
+16 Nov                  Tue     Test 2
+[Csp[K
+23 Nov[K
+.sp[K
+30 Nov[K
+
+\07 Dec                 Tue     Test 3
+                        Thu     Assignment 4 due
+.fi[K
+.bp[K
+h "Bibliography"[59;70H[7m 6[mMMMMM[31;1HMMMM[4`	[K
+
+	
+
+	
+
+						[3`[7`[K
+
+	
+
+[7`[K[59;36H[7m2pm 1.13 Mail[1[m[37;7H
+
+	[K
+
+	
+
+	[K
+
+	
+[60;0;2;60p[46;1H[1M[60;0;0;60p[58;1H.sp[46;1H
+[7`[K
+
+
+
+
+
+	[K[60;0;2;60p[54;1H[1M[60;0;0;60p[53;8H                 Thu     Assignment 4 due
+
+
+
+
+Here is a representative selection of recent books on AI, with a bias towards[53;8H[K
+
+
+		[C[C[58;78H[H
+21 Sep[K
+[Csp
+28 Sep[K
+[Csp
+\05 Oct[K
+[Csp
+12 Oct[K
+[Csp
+19 Oct[K
+[Csp
+26 Oct[K
+
+\02 Nov[K
+[Csp
+\09 Nov[K
+[Cs
+16 Nov[K
+
+23 Nov
+[Csp[K
+30 Nov
+.sp[K
+\07 Dec
+.fi[K
+b
+.sh "Bibliography"
+
+Here is a representative selection of recent books on AI, with a bias towards
+practical aspects.
+.LB[K
+ti-4n
+Barr, A. and Feigenbaum, E.A. (Editors)  \c
+\fIThe handbook of Artificial Intelligence\fR.
+Kaufmann, Los Altos, CA, \fIVolume I\fR, 1981,
+and \fIVolume II\fR, 1982.
+.sp[K
+ti-4n
+Bratko, I.
+\fIP\s-2ROLOG\s+2 programming for artificial intelligence\fR.
+Addison-Wesley, Wokingham, England, 1986.
+
+.ti-4n[K
+Bundy, A.
+[CfIThe computer modelling of mathematical reasoning\fR.
+Academic Press, London, 1983.
+.sp[K
+ti-4n
+Bundy, A. (Editor)
+\fICatalogue of Artificial Intelligence tools\fR.
+Springer-Verlag, Berlin, 1984.
+
+.ti-4n[K
+Cohen, P.R. and Feigenbaum, E.A. (Editors)  \c
+\fIThe handbook of Artificial Intelligence Volume III\fR.
+Kaufmann, Los Altos, CA, 1982.
+
+.ti-4n[K[59;70H[7m10[m[30;19H[29;78H[28;4H
+[C			[38`[45`[51`[54`	[K[60;0;2;60p[30;1H[1M[60;0;0;60p[29;57Hpractical aspects.[58;1HCharniak E., Riesbeck, C.K. and McDermott, D.V.[29;57H[K.[60;1HWrote /vaxb.userb/profs/ian/courses/670/info.sheet[29;58H[59;3H[7m--[m[29;58H[60;1H[K[29;58H[60;0;2;60p[14;1H[15L[60;0;0;60p[2;1H\09 Nov
+
+16 Nov
+
+23 Nov[K
+
+30 Nov
+
+\07 Dec
+[Cfi
+.bp[K
+h "Bibliography"
+.sp
+Here is a representative selection of recent books on AI.
+.LB
+.ti-4n
+Barr, A. and Feigenbaum, E.A. (Editors)  \c
+\fIThe handbook of Artificial Intelligence\fR.
+Kaufmann, Los Altos, CA, \fIVolume I\fR, 1981,
+and \fIVolume II\fR, 1982.
+.sp
+.ti-4n
+Bratko, I.
+\fIP\s-2ROLOG\s+2 programming for artificial intelligence\fR.
+Addison-Wesley, Wokingham, England, 1986.
+.sp[60;1HFind file: ~/courses/670/[28;1H.ti-4n
+[K[7m-----Emacs: info.sheet          2:32pm 1.13 Mail[1]   (Text Fill)----10%-------[m[60;26Hsynopsis[K[1;2HLB
+.NP[K
+Dimensions of classification of machine learning problems and systems
+.NP[K
+Theoretical foundations of inductive inference
+.NP[K
+Similarity-based learning: the generalization-as-search paradigm and its
+implementations
+[CNP
+Explanation-based learning and systems which embody it
+[CNP
+Exploration and discovery mechanisms, functional induction and theory formation
+[CNP[K
+Learning procedural knowledge
+.NP[K
+Cognitive aspects of human learning.
+[CLE[K
+The text for this part will be[K
+.LB[K
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1986)
+\fIMachine learning Volume 2\fP.
+Morgan Kaufmann, Los Altos, CA.
+[CLE[K
+Other relevant books include
+.LB[K
+Forsyth, R. and Rada, R. (1986)[K
+[Cul
+Machine learning: applications in expert systems and information retrieval.[29;13H[7msynopsis            2:32pm 1.13 Mail[1]   (Text Fill)----23[m[17;1H[29;36H[7m3pm 1.58[m[59;36H[7m3pm 1.58[m[17;1H[44;58H[30;2Hti-4n
+Bundy, A.
+\fIThe computer modelling of mathematical reasoning\fR.
+Academic Press, London, 1983.
+
+.ti-4n
+Bundy, A. (Editor)
+\fICatalogue of Artificial Intelligence tools\fR.
+Springer-Verlag, Berlin, 1984.
+.sp[K
+ti-4n
+Cohen, P.R. and Feigenbaum, E.A. (Editors)  \c
+\fIThe handbook of Artificial Intelligence Volume III\fR.
+Kaufmann, Los Altos, CA, 1982.
+.sp[K
+ti-4n
+Charniak E., Riesbeck, C.K. and McDermott, D.V.
+\fIArtificial intelligence programming\fR.[K
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1980.
+.sp[K
+.ti-4n[K
+Gevarter, W.B.
+\fIIntelligent machines\fR.
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+.sp[K
+.ti-4n[K
+Michalski, R.S., Carbonnell, J.G., and Mitchell, T.M. (Editors)  \c
+\fIMachine Learning\fR, Tioga, Palo Alto, CA, 1983, and
+\fIMachine Learning Volume II\fR,[59;71H[7m4[m[30;1H[17;1H
+
+
+
+
+
+
+
+
+[60;1HMark set[26;1H[60;1H[K[27;1H
+[60;0;32;60p[1;1H[14M[60;0;0;60p[15;1HEllis Horwood,
+Chichester, England.
+.sp
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1983)
+.ul
+Machine learning -- an artificial intelligence approach.
+Tioga, Palo Alto, CA.
+.sp
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)
+.ul
+Machine learning -- a guide to current research.
+Kluwer, Boston, MA.
+.sp
+Osherson, D.N., Stob, D. and Weinstein, S. (1986)[29;70H[7m34[m[16;1H
+[30;1H
+
+[48;1H
+
+
+[60;1HMark set[51;1H[60;0;2;60p[51;1H[5L[60;0;0;60p[51;1HForsyth, R. and Rada, R. (1986)
+.ul
+Machine learning: applications in expert systems and information retrieval.
+Ellis Horwood,
+Chichester, England.[59;3H[7m**[m[56;1H
+
+
+
+[K[56;1H[1@.[1@s[1@p[60;0;2;60p[57;1H[1L[60;0;0;60p[56;4H[K
+Gevarter, W.B.[1@.[1@t[1@i[1@-[1@4[1@n[K
+Gevarter, W.B.[K[60;0;2;60p[31;1H[15M[60;0;0;60p[44;1H\fIIntelligent machines\fR.
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+.sp
+.ti-4n
+Michalski, R.S., Carbonnell, J.G., and Mitchell, T.M. (Editors)  \c
+\fIMachine Learning\fR, Tioga, Palo Alto, CA, 1983, and
+\fIMachine Learning Volume II\fR,
+Kaufmann, Los Altos, CA, 1986.
+.sp
+.ti-4n
+Nilsson, N.J.
+\fIPrinciples of artificial intelligence\fR.
+Tioga, Palo Alto, CA, 1980.
+.sp
+.ti-4n[59;71H[7m7[m[44;1H[17;1H[C[4`
+[60;1HMark set[18;1H[60;1H[K[19;1H
+
+
+
+
+
+
+[29;36H[7m4pm 1.8[m[59;36H[7m4pm 1.8[m[26;1H
+[44;1H
+
+
+
+[60;1HMark set[48;1H[60;0;2;60p[49;1H[9L[60;0;0;60p[60;0;3;60p[48;1H[9L[60;0;0;60p[48;1HR.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1983)
+.ul
+Machine learning -- an artificial intelligence approach.
+Tioga, Palo Alto, CA.
+.sp
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)
+.ul
+Machine learning -- a guide to current research.
+Kluwer, Boston, MA.
+
+
+
+[KMMM[K[60;0;2;60p[57;1H[1M[60;0;0;60p[58;1H\fIMachine Learning Volume II\fR,M[60;0;2;60p[57;1H[1M[60;0;0;60p[58;1HKaufmann, Los Altos, CA, 1986.M[K[60;0;2;60p[57;1H[1M[60;0;0;60p[58;1H.spM[K[60;0;2;60p[57;1H[1M[60;0;0;60p[58;1H.ti-4nMMMMM[1@.[1@t[1@i[1@-[1@4[1@n[60;0;2;60p[54;1H[1L[60;0;0;60p[53;7H[K
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)[1@.[1@s[1@p[60;0;2;60p[55;1H[1L[60;0;0;60p[54;4H[K
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)[1@.[1@t[1@i[1@-[1@4[1@n[60;0;2;60p[56;1H[1L[60;0;0;60p[55;7H[K
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)MM[27;1HMMMMMMMMMMMMMMMMMMMMM[60;1HMark set[6;1H[60;1H[K[7;1H
+
+[54;1H
+
+
+
+
+
+Mark set[54;1HR.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1986)
+\fIMachine learning Volume 2\fP.
+Morgan Kaufmann, Los Altos, CA.[K
+[Csp
+.ti-4n[KM
+
+
+[KMM[60;0;2;60p[30;1H[15M[60;0;0;60p[44;1HT.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)
+.ul
+Machine learning -- a guide to current research.
+Kluwer, Boston, MA.
+.sp
+.ti-4n
+Nilsson, N.J.
+\fIPrinciples of artificial intelligence\fR.
+Tioga, Palo Alto, CA, 1980.
+.sp
+.ti-4n
+Schank, R.C. and Riesbeck, C.K.
+\fIInside computer understanding: five programs plus miniatures\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1981.
+.sp[59;70H[7m20[m[45;1H
+
+
+
+
+
+
+
+[K[60;0;2;60p[53;1H[2M[60;0;0;60p[57;1H.ti-4n
+Sowa, J.F.
+
+Mark set[53;1H[60;0;2;60p[53;1H[4L[60;0;0;60p[53;1H.sp
+.ti-4n
+.sp
+.ti-4n
+
+
+
+[K[56;1HM[9;1H[1;2Hsp
+Osherson, D.N., Stob, D. and Weinstein, S. (1986)
+[Cul
+Systems that learn.[K
+MIT Press, Cambridge, MA.
+.sp[K
+.ul[K
+Proceedings of the Fourth International Workshop on Machine Learning
+(June, 1987).
+Morgan Kaufmann, Los Altos, CA.[11;3HE
+.rh "Artificial Intelligence."[K
+This part will review the foundations of artificial intelligence and
+illustrate the problem of relating formal systems to human intelligence by[K
+examining some key aspects of knowledge representation.
+In particular, the recently proposed theory of situational semantics
+will be studied in some detail to bring into focus the problems involved in
+representing meaning.[K
+[CLB
+.NP[K
+he AI hypothesis: that human thinking and machine computing are radically the
+same
+.NP[K
+Knowledge representation case study 1:  inheritance systems
+.NP[K
+nowledge representation case study 2:  uncertain knowledge
+[CNP
+A theory of meaning: situational semantics.  Abstract situations,[29;70H[7m5[m[H[29;36H[7m5pm 1.27 Mail[2[m[59;36H[7m5pm 1.27 Mail[2[m[H
+[60;1HMark set[H
+[60;1H[K[H
+
+
+
+
+
+
+
+
+
+[55;1H
+
+
+
+
+Mark set[55;1H[60;0;2;60p[30;1H[20M
+
+
+
+
+[9L[60;0;0;60p[35;1HOsherson, D.N., Stob, D. and Weinstein, S. (1986)
+.ul
+Systems that learn.
+MIT Press, Cambridge, MA.
+.sp
+.ul
+Proceedings of the Fourth International Workshop on Machine Learning
+(June, 1987).
+Morgan Kaufmann, Los Altos, CA.
+
+
+
+
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1981.
+.sp
+.ti-4n
+Sowa, J.F.
+\fIConceptual structures\fR.
+Addison-Wesley, Reading, Massachusetts, 1984.
+.sp
+.ti-4n
+Waterman, D.A.
+\fIA guide to expert systems\fR.
+Addison-Wesley, Reading, MA, 1985.[59;71H[7m4[m[44;1H[60;1H[K[43;1HMMM[C.ult.uli.ul-.ul4.uln.ul[60;0;2;60p[41;1H[1L[60;0;0;60p[40;7H[K
+.ul[11;1H[1;2HNP
+A theory of meaning: situational semantics.  Abstract situations,
+events, event-types, roles, constraints, constraint-types.
+Linguistic meaning, attitudes.
+Representing mental states and events.
+[CLE
+The text for this part will be
+.LB[K
+Barwise, J. and Perry, J. (1983)
+.ul[K
+Situations and attitudes.
+MIT Press, Cambridge, MA.[K
+.LE[K
+Other relevant books include[K
+.LB[K
+Cohen, P.R. (1985)[K
+.ul[K
+Heuristic reasoning about uncertainty: an artificial intelligence approach.
+Pitmans Advanced Program, London, England.
+[Csp
+Haugeland, J. (1985)[K
+.ul[K
+Artificial intelligence: the very idea.
+MIT Press, Cambridge, MA.[K
+[Csp
+anal, L.N. and Lemmer, J.F.\0(Editors) (1986)[K
+[Cul
+Uncertainty in artificial intelligence.[K[29;70H[7m78[m[H
+
+
+
+
+
+
+
+[60;0;32;60p[1;1H[8M[60;0;0;60p[21;1HNorth Holland, Amsterdam.
+.sp
+Touretzky, D. (1986)
+.ul
+The mathematics of inheritance systems.
+Pitman, London.
+.LE
+
+[7m**-Emacs: synopsis            2:35pm 1.27 Mail[2]   (Text Fill)----Bot[m[H[60;1HUndo![HOsherson, D.N., Stob, D. and Weinstein, S. (1986)[3;2Hystems that learn.[K[5;2Hsp
+.ul[K
+Proceedings of the Fourth International Workshop on Machine Learning
+(June, 1987).[K
+Morgan Kaufmann, Los Altos, CA.
+.LE[K
+.rh "Artificial Intelligence."[K
+This part will review the foundations of artificial intelligence and
+illustrate the problem of relating formal systems to human intelligence by
+examining some key aspects of knowledge representation.
+In particular, the recently proposed theory of situational semantics
+will be studied in some detail to bring into focus the problems involved in
+representing meaning.
+.LB[K
+NP
+The AI hypothesis: that human thinking and machine computing are radically the
+same[K
+NP
+Knowledge representation case study 1:  inheritance systems
+[CNP
+Knowledge representation case study 2:  uncertain knowledge
+.NP[K
+A theory of meaning: situational semantics.  Abstract situations,
+events, event-types, roles, constraints, constraint-types.[29;3H[7m---Emacs: synopsis            2:35pm 1.27 Mail[2]   (Text Fill)----54%[m[H[60;0;0;60p[1;1H[26M
+
+[26L[60;0;0;60p[60;1H[K[H
+
+Linguistic meaning, attitudes.
+Representing mental states and events.
+.LE
+The text for this part will be
+.LB
+Barwise, J. and Perry, J. (1983)
+.ul
+Situations and attitudes.
+MIT Press, Cambridge, MA.
+.LE
+Other relevant books include
+.LB
+Cohen, P.R. (1985)
+.ul
+Heuristic reasoning about uncertainty: an artificial intelligence approach.
+Pitmans Advanced Program, London, England.
+.sp
+Haugeland, J. (1985)
+.ul
+Artificial intelligence: the very idea.
+MIT Press, Cambridge, MA.
+.sp
+Kanal, L.N. and Lemmer, J.F.\0(Editors) (1986)
+.ul
+Uncertainty in artificial intelligence.
+North Holland, Amsterdam.[29;70H[7m78[m[H
+
+
+
+
+
+
+[60;1HMark set[8;1H[60;1H[K[9;1H
+
+
+[41;1H[30;1HMachine learning: applications in expert systems and information retrieval.
+Ellis Horwood,[K
+Chichester, England.[K
+
+
+Gevarter, W.B.[K
+\fIIntelligent machines\fR.
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+.sp[K
+ti-4n
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1983)
+
+Machine learning -- an artificial intelligence approach.[K
+Tioga, Palo Alto, CA.
+.sp[K
+ti-4n
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1986)
+\fIMachine learning Volume 2\fP.
+Morgan Kaufmann, Los Altos, CA.[K
+.sp[K
+ti-4n
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)
+.ul[K
+Machine learning -- a guide to current research.
+Kluwer, Boston, MA.[K
+
+
+Nilsson, N.J.[K[58;4HPrinciples of artificial intelligence\fR.[59;70H[7m18[mM[30;1HBratko, I.[K
+\fIP\s-2ROLOG\s+2 programming for artificial intelligence\fR.
+Addison-Wesley, Wokingham, England, 1986.
+
+
+Bundy, A.[K[36;4HThe computer modelling of mathematical reasoning\fR.
+Academic Press, London, 1983.[K
+
+
+Bundy, A. (Editor)[K
+\fICatalogue of Artificial Intelligence tools\fR.
+Springer-Verlag, Berlin, 1984.[K
+.sp[K
+ti-4n
+Cohen, P.R. and Feigenbaum, E.A. (Editors)  \c
+\fIThe handbook of Artificial Intelligence Volume III\fR.[K
+Kaufmann, Los Altos, CA, 1982.[K
+.sp[K
+ti-4n
+Charniak E., Riesbeck, C.K. and McDermott, D.V.[30;1H.sp[K
+26 Oct[K
+.sp[K
+\02 Nov
+[Csp[K
+\09 Nov[K
+.sp[K
+16 Nov[K
+
+23 Nov
+.sp[K
+30 Nov[K
+.sp[K
+\07 Dec
+[Cfi[K
+.bp[K
+.sh "Bibliography"[K
+.sp[K
+Here is a representative selection of recent books on AI.
+[CLB[K
+.ti-4n[K
+Barr, A. and Feigenbaum, E.A. (Editors)  \c[K
+\fIThe handbook of Artificial Intelligence\fR.
+Kaufmann, Los Altos, CA, \fIVolume I\fR, 1981,[K
+and \fIVolume II\fR, 1982.
+
+
+Bratko, I.[K[58;5H\s-2ROLOG\s+[17@2 programming for[59;71H[7m0[mM[29;36H[7m6pm 2.43[m[59;36H[7m6pm 2.43[mMM
+
+
+Mark set[57;1H[60;0;2;60p[31;1H[17M[40;1H[4L[60;0;0;60p[40;1HBarwise, J. and Perry, J. (1983)
+.ul
+Situations and attitudes.
+MIT Press, Cambridge, MA.
+
+
+Addison-Wesley, Wokingham, England, 1986.
+.sp
+.ti-4n
+Bundy, A.
+\fIThe computer modelling of mathematical reasoning\fR.
+Academic Press, London, 1983.
+.sp
+.ti-4n
+Bundy, A. (Editor)
+\fICatalogue of Artificial Intelligence tools\fR.
+Springer-Verlag, Berlin, 1984.
+.sp
+.ti-4n[59;71H[7m1[m[44;1H[60;1H[K[44;1H[1@.[1@s[1@p[60;0;2;60p[45;1H[1L[60;0;0;60p[44;4H[K
+Bratko, I.[1@.[1@t[1@i[1@-[60;0;2;60p[46;1H[1L[60;0;0;60p[45;5H4n[K
+Bratko, I.[12;1H
+
+
+[60;1HMark set[15;1H[60;1H[K[18;1H
+[46;1H[30;1H\fICatalogue of Artificial Intelligence tools\fR.
+Springer-Verlag, Berlin, 1984.[K
+[Csp
+
+Cohen, [3@P.R[35;43H Volume III\fR.[36;26H1982.[K
+.sp[K
+ti-4n
+Charniak E., Riesbeck, C.K. and McDermott, D.V.
+\fIArtificial intelligence programming\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1980.
+.sp[K
+.ti-4n[K
+Forsyth, R. and Rada, R. (1986)
+[Cul[K
+Machine learning: applications in expert systems and information retrieval.
+Ellis Horwood,[K
+Chichester, England.[K
+
+
+Gevarter, W.B.[52;4HIntelligent machines\fR.[K
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+
+
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1983)
+.ul[K
+Machine learning -- an artificial intelligence approach.
+		[7m5[m[30;1H
+
+
+
+
+
+
+
+
+[60;1HMark set[39;1H[60;0;2;60p[39;1H[4L[60;0;0;60p[39;1HCohen, P.R. (1985)
+.ul
+Heuristic reasoning about uncertainty: an artificial intelligence approach.
+Pitmans Advanced Program, London, England.
+[60;1H[K[43;1H[1@.[1@s[1@p[60;0;2;60p[44;1H[1L[60;0;0;60p[43;4H[K
+Charniak E., Riesbeck, C.K. and McDermott, D.V.[1@.[1@t[1@i[1@-[1@4[1@n[60;0;2;60p[45;1H[1L[60;0;0;60p[44;7H[K
+Charniak E., Riesbeck, C.K. and McDermott, D.V.MM[60;1HMark set[43;1H[60;1H[K[44;1H
+
+
+
+[60;0;2;60p[43;1H[5M[60;0;0;60p[54;1HPrentice-Hall, Englewood Cliffs, NJ, 1985.
+.sp
+.ti-4n
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1983)
+.ul[43;1HMMMMMMMMMMM[60;1HMark set[32;1H[60;0;2;60p[44;1H[5L[60;0;0;60p[60;0;12;60p[34;1H[5L[60;0;0;60p[34;1HCharniak E., Riesbeck, C.K. and McDermott, D.V.
+\fIArtificial intelligence programming\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1980.
+.sp
+.ti-4nM[29;36H[7m7pm 1.97 Mail[1[m[59;36H[7m7pm 1.97 Mail[1[m[37;1H[60;1H[K[30;1HGevarter, W.B.[K
+\fIIntelligent machines\fR.[K
+Prentice-Hall, Englewood Cliffs, NJ, 1985.
+[Csp[K
+.ti-4n[K
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1983)
+.ul[K
+Machine learning -- an artificial intelligence approach.
+Tioga, Palo Alto, CA.
+.sp[K
+.ti-4n[K
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1986)
+\fIMachine learning Volume 2\fP.
+Morgan Kaufmann, Los Altos, CA.
+.sp[K
+ti-4n
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)[K
+.ul[K
+Machine learning -- a guide to current research.
+Kluwer, Boston, MA.
+.sp[K
+ti-4n
+Nilsson, N.J.[K
+\fIPrinciples of artificial intelligence\fR.
+Tioga, Palo Alto, CA, 1980.
+
+
+Osherson, D.N., Stob, D. and Weinstein, S. (1986)
+.ul[K[59;70H[7m21[m[30;1H
+
+
+[K[60;0;2;60p[33;1H[1M[60;0;0;60p[58;1HSystems that learn.[33;1H[60;0;2;60p[33;1H[1M[60;0;0;60p[58;1HMIT Press, Cambridge, MA.[33;1H[60;1HMark set[33;1H[60;0;2;60p[34;1H[2L[60;0;0;60p[35;1H[60;0;2;60p[36;1H[2L[60;0;0;60p[60;0;23;60p[33;1H[4L[60;0;0;60p[33;1H.sp
+.ti-4n
+.sp
+.ti-4n
+[60;1H[K[36;1HM[19;1H
+[60;1HMark set[20;1H[60;1H[K[21;1H
+
+
+
+
+
+
+[60;0;32;60p[1;1H[14M[60;0;0;60p[15;1H.sp
+Touretzky, D. (1986)
+.ul
+The mathematics of inheritance systems.
+Pitman, London.
+.LE[29;70H[7mBot[m[15;1H[35;1H[60;1HMark set[35;1H[60;0;2;60p[38;1H[9L[60;0;0;60p[60;0;14;60p[35;1H[9L[60;0;0;60p[35;1HHaugeland, J. (1985)
+.ul
+Artificial intelligence: the very idea.
+MIT Press, Cambridge, MA.
+.sp
+Kanal, L.N. and Lemmer, J.F.\0(Editors) (1986)
+.ul
+Uncertainty in artificial intelligence.
+North Holland, Amsterdam.
+[60;1H[K[43;1HMMM[1@.[1@t[1@i[1@-[1@4[1@n[60;0;2;60p[41;1H[1L[60;0;0;60p[40;7H[K
+Kanal, L.N. and Lemmer, J.F.\0(Editors) (1986)[60;0;2;60p[43;1H[11M[31;1H[7L[54;1H[2L[60;0;0;60p[30;1H.ti-4n[K
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)
+.ul
+Machine learning -- a guide to current research.
+Kluwer, Boston, MA.
+.sp
+.ti-4n
+Nilsson, N.J.[38;4HPrinciples of artificial intelligence\fR.
+Tioga, Palo Alto, CA, 1980.[K
+
+
+Osherson, D.N., Stob, D. and Weinstein, S. (1986)
+
+Systems that learn.[K
+
+
+
+.ul[K
+Proceedings of the Fourth International Workshop on Machine Learning
+(June, 1987).[K
+
+
+
+Schank, R.C. and Riesbeck, C.K.
+\fIInside computer understanding: five programs plus miniatures\fR.
+Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1981.[K
+.sp
+.ti-4n[59;71H[7m5[m[30;1H[60;1HAuto-saving...[30;1H[60;15Hdone[30;1H[60;1H[K[30;2Hsp[K
+.ti-4n[K
+Sowa, J.F.
+\fIConceptual structures\fR.[K
+Addison-Wesley, Reading, Massachusetts, 1984.
+
+
+Waterman, D.A.[38;4HA guide to expert systems\fR.[K
+Addison-Wesley, Reading, MA, 1985.
+
+
+Wilensky, R.[K
+\fIL\s-2ISP\s+2craft\fR.  W.W.Norton, New York, 1984.
+.sp[K
+.ti-4n[K
+Winograd, T.
+\fILanguage as a cognitive process.  Volume I \(em Syntax\fR.
+Addison-Wesley, Reading, Massachusetts, 1984.
+.sp[K
+.ti-4n[K
+Winston, P.H.[K
+\fIArtificial Intelligence\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp[K
+.ti-4n[K
+Winston, P.H. & Horn, B.K.P.[K
+\fIL\s-2ISP\s+2\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).[59;70H[7m30[m[30;1H
+
+
+
+
+[K[60;0;2;60p[35;1H[1M[60;0;0;60p[58;1H.LE[35;1H[K[60;0;2;60p[35;1H[1M[60;0;0;60p[58;1H.bp 0[35;1H[60;1HMark set[35;1H[60;0;2;60p[36;1H[4L[60;0;0;60p[60;1H[K[35;1H.sp[K
+.ti-4n
+.sp
+.ti-4n
+Waterman, D.A.MM[15;1H
+[60;1HMark set[16;1H[60;1H[K[17;1H
+
+
+[37;1H[60;1HMark set[37;1H[60;0;2;60p[40;1H[4L[60;0;0;60p[60;0;17;60p[37;1H[4L[60;0;0;60p[37;1HTouretzky, D. (1986)
+.ul
+The mathematics of inheritance systems.
+Pitman, London.
+[60;1H[K[29;36H[7m8pm 1.48[m
+Winston, P.H.
+\fIArtificial Intelligence\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp[K
+.ti-4n[K
+Winston, P.H. & Horn, B.K.P.
+\fIL\s-2ISP\s+2\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+[CLE
+.bp 0[K
+.ce2[K
+THE UNIVERSITY OF CALGARY
+DEPARTMENT OF COMPUTER SCIENCE
+.sp2[K
+.ps+2[K
+.ce[K
+CPSC 533 \(em Artificial Intelligence
+[Cps-2[K
+.sh "Assignment 1.  Introduction to \s-2LISP\s+2"
+(10% of course marks)[K
+
+Fully commented code, together with answers to the questions posed in Q.3,
+must be handed in on Tuesday January 20th.
+There will be[K
+.ul[K
+no extension of this deadline, except for good, documented, medical reasons.
+[CLB "1.  "
+.NI "1.  "[K
+1.\ \ \c[K[59;36H[7m8pm 1.48 Mail[1]   (Text Fill)----34[m[30;1H
+
+
+
+
+
+
+
+
+[60;1HMark set[39;1H[60;1H[K[30;1H.NI "1.  "[K
+1.\ \ \c[K
+Write a recursive function \s-2POWER-OF-TWO\s+2 that computes the
+\fIn\fRth power of two, eg
+(\s-2POWER-OF-TWO\s+2 100) returns 1267650600228229401496703205376.
+[A simple test of function-definition and recursion.]
+.sp[K
+.NI "1.  "[K
+2.\ \ \c
+Write your own version of the Lisp function \s-2ASSOC\s+2.
+\s-2ASSOC\s+2 ``looks up'' a value in a list of lists, and returns the first
+list it finds whose first element matches the desired value.
+For example,[K
+(\s-2ASSOC\s+2 '\s-2Y\s+2 '((\s-2X\s+2 \s-2A\s+2) (\s-2Y\s+2 \s-2B\s+2) (\s-2Z\\s+2 \s-2C\s+2)))
+returns (\s-2Y\s+2 \s-2B\s+2).
+[Another simple test of function-definition and recursion.]
+[Csp[K
+NI "1.  "[K
+3.\ \ \c[K
+In \fBProblem 4-13\fP (p.73 and p.344), Winston & Horn define
+\s-2OUR-INTERSECTION\s+2 as[K
+.sp -0.5[K
+.LB[K
+nf
+.ta \w'\0\0'u +\w'(\s-2COND\s+2 'u +\w'('u[K
+(\s-2DEFUN\s+2 \s-2OUR-INTERSECTION\s+2 (\s-2X\s+2 \s-2Y\s+2)
+        (\s-2COND\s+2 ((\s-2NULL\s+2 \s-2X\s+2) \s-2NIL\s+2)
+                ((\s-2MEMBER\s+2 (\s-2CAR\s+2 \s-2X\s+2) \s-2Y\s+2)
+	[7m9[m[30;1H[60;1HMark set[30;1HNote that for all projects, choice of experiments and
+.ul[K
+presentation and analysis of results[K
+in the final report forms a particularly important part of the assessment.
+Due on Friday April 10th (the last day of the Winter term).[K
+.in-4n[K
+[CLE
+I hope that it will be found useful to discuss project progress in class
+and demonstrate them when complete.
+.sp[K
+There will be[K
+.ul[K
+no extension of deadlines
+on the project, except for good, documented, medical reasons.[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[59;70H[7mBot[m[44;1H[60;1H[K[30;1H.LB[K
+NP
+.ul[K
+Project proposal (0%)[K
+.in+4n[K
+A (nominally) two-page report which describes the project and defines its
+scope.
+Although this is not assessed, it[K
+.ul[K
+must be handed in on time.
+Due on Tuesday February 3rd.
+[Cin-4n
+.NP[K
+.ul[K
+Interim report (10%)
+.in+4n
+Detailed specification of the project, with plans for implementing the
+program and investigating its behavior.
+Must describe how the program's performance is to be assessed, and what tests
+and analysis are planned.
+Due on Tuesday March 3rd.
+.in-4n
+.NP
+.ul
+Final report (25%)
+.in+4n
+Complete demonstration and documentation of what was done.
+Note that for all projects, choice of experiments and
+.ul[59;70H[7m92%[mM[30;1Ha general frame system for knowledge representation
+
+
+ATN parser for a simple subset of English
+[CNP[K
+.ul[K
+a version of Marcus's deterministic wait-and-see parsing scheme
+.NP[K
+
+a semantic grammar interpreter in a particular domain
+.NP[K
+ul[K
+a concept learning system (eg the M procedure).
+[CLE
+Of course, you may suggest your own project topic.
+[Cpp[K
+The project is to be undertaken as a scientific investigation.[K
+It is \fInot\fR a test of whether you can hack together a system.
+Grades are given for the reports, not for programs (although programs may[K
+be included in an Appendix).
+As well as constructing a system, you are expected to investigate and analyze
+its performance and report on your findings.
+All projects will be done in L\s-2ISP\s+2 unless there are \fIvery\fR special
+reasons for using another language (to be discussed and agreed with me).
+.pp[K
+I intend that projects will mostly be done in pairs.
+Assessment will be based on written documents as follows:[K
+.LB[K
+NP[59;70H[7m85[mM[30;1H.ul[K
+an experimental comparison of several different search procedures in a particul\ar domain
+.NP[K
+ul
+a game-playing program for some simple two-person game using the alpha-beta tre\e-searching technique[K[39;3Hrule interpreter, and the implementation of some rudimentary rule-based syste\m in it
+[CNP
+.ul[K
+a system which converts well-formed formulae in first-order predicate calculus \into clausal form[K
+[CNP
+.ul[K
+a resolution theorem prover[K
+.NP[K
+.ul[K
+a STRIPS-like planner in a blocks world[K
+.NP[K
+.ul[K
+a system to simplify, differentiate, and integrate expressions in symbolic alge\bra
+.NP[K
+.ul[K
+a general frame system for knowledge representation[59;71H[7m0[mM[30;1HFully commented code, together with a brief user manual and transcript
+of an interactive session, must be handed in on Tuesday January 27th.[K
+There will be
+[Cul
+no extension of this deadline, except for good, documented, medical reasons.
+.sp 3[K
+Attachment 1  blocks.l
+[Cbr
+Attachment 2  commented transcript
+.bp 0[K
+.ce2[K
+THE UNIVERSITY OF CALGARY
+DEPARTMENT OF COMPUTER SCIENCE
+.sp2[K
+.ps+2[K
+ce
+CPSC 533 \(em Artificial Intelligence
+.ps-2[K
+sh "Project"
+(total of 35% of course marks)
+.pp[K
+The aim of the project is to give you hands-on experience of designing and
+implementing an AI program of modest size, and investigating and reporting on
+its performance.[K
+Possible project topics are:
+[CLB
+NP
+.ul[K
+an experimental comparison of several different search procedures in a particul\[70`[7m75[mMM[48;1HMMMMMMMM[60;0;2;60p[30;1H[10M[60;0;0;60p[49;1Har domain
+.NP
+.ul
+a game-playing program for some simple two-person game using the alpha-beta tre\e-searching technique
+.NP
+.ul
+a rule interpreter, and the implementation of some rudimentary rule-based syste\m in it
+.NP[30;1H[60;0;2;60p[30;1H[15L[60;0;0;60p[30;1HDEPARTMENT OF COMPUTER SCIENCE
+.sp2
+.ps+2
+.ce
+CPSC 533 \(em Artificial Intelligence
+.ps-2
+.sh "Assignment 1.  Introduction to \s-2LISP\s+2"
+(10% of course marks)
+.sp
+Fully commented code, together with answers to the questions posed in Q.3,
+must be handed in on Tuesday January 20th.
+There will be
+.ul
+no extension of this deadline, except for good, documented, medical reasons.
+.LB "1.  "[59;70H[7m58[m[44;1HMMMMMMMMMMMMMM[60;1HMark set[30;1H[60;1H[K[32;1H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[60;0;2;60p[30;1H[17M[60;0;0;60p[42;1HPossible project topics are:
+.LB
+.NP
+.ul
+an experimental comparison of several different search procedures in a particul\ar domain
+.NP
+.ul
+a game-playing program for some simple two-person game using the alpha-beta tre\e-searching technique
+.NP
+.ul
+a rule interpreter, and the implementation of some rudimentary rule-based syste\m in it
+.NP
+.ul
+a system which converts well-formed formulae in first-order predicate calculus \[30;1H[60;0;2;60p[30;1H[15L[60;0;0;60p[30;1HAddison-Wesley, Reading, Massachusetts, 1984.
+.sp
+.ti-4n
+Winston, P.H.
+\fIArtificial Intelligence\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.sp
+.ti-4n
+Winston, P.H. & Horn, B.K.P.
+\fIL\s-2ISP\s+2\fR.
+Addison-Wesley, Reading, Massachusetts, 1984 (second edition).
+.LE
+.bp 0
+.ce2
+THE UNIVERSITY OF CALGARY[59;71H[7m7[m[44;1H[29;36H[7m9pm 1.59[m[59;36H[7m9pm 1.59[m[44;1H
+
+
+
+
+[5`[C6[2@70[2P
+
+	
+[C[C[1@2[1@0[1P[1P[53;4H[54;13H
+
+
+[58;4H[60;0;2;60p[30;1H[15M[60;0;0;60p[44;1H.NP
+.ul
+an experimental comparison of several different search procedures in a particul\ar domain
+.NP
+.ul
+a game-playing program for some simple two-person game using the alpha-beta tre\e-searching technique
+.NP
+.ul
+a rule interpreter, and the implementation of some rudimentary rule-based syste\m in it
+.NP
+.ul
+a system which converts well-formed formulae in first-order predicate calculus \[70`[7m61[m[48;4H[30;1H.ul[K
+a system which converts well-formed formulae in first-order predicate calculus \into clausal form
+[CNP
+.ul[K
+a resolution theorem prover
+[CNP[K
+.ul[K
+a STRIPS-like planner in a blocks world
+.NP[K
+.ul[K
+a system to simplify, differentiate, and integrate expressions in symbolic alge\bra[K
+NP
+ul
+a general frame system for knowledge representation
+.NP[K
+.ul[K
+ATN parser for a simple subset of English
+[CNP
+.ul[K
+a version of Marcus's deterministic wait-and-see parsing scheme[54;3Hsemantic grammar interpreter in a particular domain[K
+.NP[K
+ul
+a concept learning system (eg the M procedure).
+.LE[K[59;70H[7m70[m[30;1Ha concept learning system (eg the M procedure).
+.LE[K
+Of course, you may suggest your own project topic.
+[Cpp
+The project is to be undertaken as a scientific investigation.
+It is \fInot\fR a test of whether you can hack together a system.
+Grades are given for the reports, not for programs (although programs may
+be included in an Appendix).
+As well as constructing a system, you are expected to investigate and analyze
+its performance and report on your findings.
+All projects will be done in L\s-2ISP\s+2 unless there are \fIvery\fR special
+reasons for using another language (to be discussed and agreed with me).[K
+.pp
+I intend that projects will mostly be done in pairs.
+Assessment will be based on written documents as follows:
+.LB[K
+
+
+Project proposal (0%)[K
+[Cin+4n
+A (nominally) two-page report which describes the project and defines its
+scope.[K
+Although this is not assessed, it
+
+must be handed in on time.[K
+Due on Tuesday February 3rd.
+[Cin-4n
+.NP[K
+ul[59;71H[7m7[m[30;1H[60;1HWrote /vaxb.userb/profs/ian/courses/670/info.sheet[30;1H[59;3H[7m--[m[30;1H[60;1H[K[30;1H[20;1H[60;1HLoading shell...[20;1H[60;17Hdone[20;1H[60;1H[K[Hroff -a2[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[29;3H[7m**-Emacs: *shell*             2:39pm 1.59 Mail[1]   (Shell: run)----All[m[1;10H[5@VAXB [15`~/corse[Kure[Kses/670/info.sheet; lpq -Palw2[29;35H[7m40pm 1.3[m[59;35H[7m40pm 1.3[m[1;51H
+no entries
+
+vaxb: sending to vaxa
+Rank   Owner      Job  Files                                 Total Size
+1st    ian        287  (standard input)                      20252 bytes
+VAXB[C[29;36H[7m1pm 1.50 Mail[2[m[59;36H[7m1pm 1.50 Mail[2[m[7;6H[29;36H[7m2pm 1.23[m[59;36H[7m2pm 1.23[m[7;6H[29;36H[7m3pm 1.38 Mail[1[m[59;36H[7m3pm 1.38 Mail[1[m[7;6H[29;36H[7m4pm 1.54 Mail[0[m[59;36H[7m4pm 1.54 Mail[0[m[7;6H[29;36H[7m5pm 1.37 Mail[1[m[59;36H[7m5pm 1.37 Mail[1[m[7;6H[29;36H[7m6pm 1.25[m[59;36H[7m6pm 1.25[m[7;6H[29;36H[7m7pm 0.87 Mail[0[m[59;36H[7m7pm 0.87 Mail[0[m[7;6H[29;36H[7m8pm 1.17 Mail[1[m[59;36H[7m8pm 1.17 Mail[1[m[7;6H[29;36H[7m9pm 1.31 Mail[2[m[59;36H[7m9pm 1.31 Mail[2[m[7;6H[29;35H[7m50pm 1.44[m[59;35H[7m50pm 1.44[m[7;6H[29;36H[7m1pm 0.87 Mail[1[m[59;36H[7m1pm 0.87 Mail[1[m[7;6H[29;36H[7m2pm 0.84 Mail[0[m[59;36H[7m2pm 0.84 Mail[0[m[7;6H[29;36H[7m3pm 0.71[m[59;36H[7m3pm 0.71[m[7;6H[29;36H[7m4pm 0.45[m[59;36H[7m4pm 0.45[m[7;6H[29;36H[7m5pm 0.21[m[59;36H[7m5pm 0.21[m[7;6H[29;36H[7m6pm 0.4[m[59;36H[7m6pm 0.4[m[7;6H[29;36H[7m7pm 0.66[m[59;36H[7m7pm 0.66[m[7;6H[29;36H[7m8pm 0.54[m[59;36H[7m8pm 0.54[m[7;6H[29;36H[7m9pm 0.53 Mail[1[m[59;36H[7m9pm 0.53 Mail[1[m[7;6H[29;33H[7m3:00pm 1.09[m[59;33H[7m3:00pm 1.09[m[7;6H[29;36H[7m1pm 1.1[m[59;36H[7m1pm 1.1[m[7;6H[29;36H[7m2pm 1.05[m[59;36H[7m2pm 1.05[m[7;6H[29;36H[7m3pm 1.09[m[59;36H[7m3pm 1.09[m[7;6H[29;36H[7m4pm 0.94[m[59;36H[7m4pm 0.94[m[7;6H[29;36H[7m5pm 0.62[m[59;36H[7m5pm 0.62[m[7;6H[60;1HC-z-[7;6H[60;4H r[7;6H[60;1HLoading rmail...[7;6H[60;17Hdone[7;6H[60;1H[K[7;6H[60;1HCounting messages...[7;6H[60;21H20[7;6H[60;1HGarbage collecting...[K[7;6H[60;1HCounting messages...20[7;6H[60;21Hdone[7;6H[60;10Hnew messages...[7;6H[60;25Hdone (1)[7;6H[60;1HWrote /vaxb.userb/profs/ian/RMAIL[7;6H[60;1H1 new message read[K[7;6H[HFrom: Danhua Mo <mo@vaxb.LOCAL>[K
+Date: 28 Aug 1987 14:00-MST
+Subject: paper
+To: ian@vaxb.LOCAL[K
+[K
+Hi. I hate to bother you again, but it would be highly appreciated[K
+if you would take a look at the final draft of my paper. I put it in
+your mbox on the 7th floor. I am very busy at making the format right
+now because the deadline is on Monday.
+
+---mo[29;3H[7m- Emacs: RMAIL  3:05pm 0.62 Mail[1]  (RMAIL 38/38 Narrow) ----All------[m[H[29;22H[7m6pm 0.58[1]  (RMAIL 38/38 Narrow) ----All-----[m[59;36H[7m6pm 0.58[1]   (Text Fill)----77%-----[m[H[29;22H[7m7pm 0.8[m[59;36H[7m7pm 0.8[m[H[29;22H[7m8pm 0.70[m[59;36H[7m8pm 0.70[m[H[29;22H[7m9pm 0.73[0[m[59;36H[7m9pm 0.73[0[m[H[29;21H[7m10pm 1.27[1[m[59;35H[7m10pm 1.27[1[m[H[29;22H[7m1pm 0.93[m[59;36H[7m1pm 0.93[m[H[29;22H[7m2pm 0.58[0[m[59;36H[7m2pm 0.58[0[m[H[29;22H[7m3pm 0.99[1[m[59;36H[7m3pm 0.99[1[m[H[29;22H[7m4pm 1.00[0[m[59;36H[7m4pm 1.00[0[m[H[29;22H[7m5pm 0.95[1[m[59;36H[7m5pm 0.95[1[m[H[29;22H[7m6pm 0.90[m[59;36H[7m6pm 0.90[m[H[29;22H[7m7pm 0.97[2[m[59;36H[7m7pm 0.97[2[m[H[29;22H[7m8pm 1.4[m[59;36H[7m8pm 1.4[m[H[29;22H[7m9pm 1.04[0[m[59;36H[7m9pm 1.04[0[m[H[29;21H[7m20pm 0.82[3[m[59;35H[7m20pm 0.82[3[m[H[29;22H[7m1pm 0.64[1[m[59;36H[7m1pm 0.64[1[m[H[29;22H[7m2pm 0.99[3[m[59;36H[7m2pm 0.99[3[m[H[29;22H[7m3pm 1.23[1[m[59;36H[7m3pm 1.23[1[m[H[29;22H[7m4pm 1.12[0[m[59;36H[7m4pm 1.12[0[m[H[29;22H[7m5pm 1.72[1[m[59;36H[7m5pm 1.72[1[m[H[60;1H[K[HDate: Fri, 28 Aug 87 12:28:28 MDT
+From: Tim Bell <bellt@vaxb.LOCAL>
+To: cleary@vaxb.LOCAL, ian@vaxb.LOCAL
+Subject: Text compression corpus[6;2Here is a list of the texts we decided on a while ago for the corpus. Could
+you please give me a pathname where I can get the texts that you[K
+volunteered? Also any suggestions, changes ...[K
+[K
+ta,
+tim[K
+-------------------------------------------------------------------------
+Text Compression Corpus
+
+abbrev  source
+
+book1   Hardy - Far from the madding crowd
+book2   Ian's speech book
+paper1  Ian
+paper2  Ian
+paper3  Ian
+paper4  John
+paper5  John
+paper6  John
+news    usenet sample
+progc   C (Dan) ~100k
+progp   Pascal (John)
+progm   Modula-2[29;43H[7m7/38,answered Narrow) ----Top[m[HFrom: Danhua Mo <mo@vaxb.LOCAL>[K
+Date: 28 Aug 1987 14:00-MST[K
+Subject: paper[K
+To: ian@vaxb.LOCAL[K[6;2Hi. I hate to bother you again, but it would be highly appreciated[K
+if you would take a look at the final draft of my paper. I put it in
+your mbox on the 7th floor. I am very busy at making the format right
+now because the deadline is on Monday.
+[K
+---mo
+[K
+[K
+
+[K
+
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[29;43H[7m8/38 Narrow) ----All---------[m[H[29;22H[7m6pm 1.75[2[m[59;36H[7m6pm 1.75[2[m[H[29;22H[7m7pm 1.21[m[59;36H[7m7pm 1.21[m[H[29;22H[7m8pm 1.19[1[m[59;36H[7m8pm 1.19[1[m[H[30;1H[60;1HMark set[30;1H.pn 0[K
+ls1
+.ce2[K
+THE UNIVERSITY OF CALGARY
+DEPARTMENT OF COMPUTER SCIENCE[K
+.sp2[K
+.ps+2[K
+.ce[K
+CPSC 670 \(em Artificial Intelligence[K
+.ps-2[K
+.sp3[K
+.LB[K
+NP
+.ul[K
+Instructor.[K
+John H Andreae,  MA\ 782,  220-7299
+Ian H Witten,  MA\ 786,  220-6780
+[Csp
+.NP[K
+ul[K
+Office hours.[K
+Tuesdays and Thursdays 14.00-15.00 (both instructors)
+.sp[K
+NP
+.ul[K
+Lectures.[K
+???, Tuesdays and Thursdays 11.00-12.15
+[Csp
+NP[59;65H[7mTop[m[30;1H[60;1H[K[31;1H
+
+
+
+
+
+
+
+
+
+
+
+
+[11`s.[59;3H[7m**[m[44;12H
+[36` and[29;22H[7m9pm 1.40[m[59;36H[7m9pm 1.40[m[45;40H
+[47;4H
+
+[50;14H[51;54H[52;4H
+
+
+	[C
+				[1@M[1@T[1P[1@A[1@ [1@2[1@5[1@6	[1P	[1P[1P
+[60;0;2;60p[30;1H[15M[60;0;0;60p[44;1H.ul
+Assessment
+.ta \w'Winter Term    'u +\w'Midterm exam (in class time)    'u
+.sp
+Fall Term       Assignment      \0\07\(12%
+.br
+	Project:
+.br
+	\0\0\0\0progress report \0\05%
+.br
+	\0\0\0\0final report    \012\(12%
+.br
+	\0\0\0\0in-class presentation   \0\02\(12%
+.br
+	Take-home exam  \022\(12%
+				[7m 3%[m[44;4H
+	
+
+
+	[60;1HQuery replace:	%Mark set[KQuery replacing % with :[C[48;43H[K
+
+
+
+[K
+
+	[C[K[56;51H[K[58;34H[30;1H        Project:[K
+.br[K
+        \0\0\0\0progress report \0\05
+[Cbr
+        \0\0\0\0final report    \012\(12
+.br[K
+        \0\0\0\0in-class presentation   \0\02\(12[K
+[Cbr
+        Take-home exam  \022\(12
+[Csp
+Winter Term     Class presentations     \0\07\(12
+.br[K
+        Project:
+[Cbr
+        \0\0\0\0progress report \0\05%
+.br[K
+        \0\0\0\0final report    \012\(12%[K
+[Cbr
+        \0\0\0\0in-class presentation   \0\02\(12%
+
+	Term paper      \022\(12%
+[Csp
+	____[K
+
+h'-\w'total  'u'total\ \ 100%[K[55;3Hp
+.sh "Planned timetable"[K
+[Csp
+.nf[K[59;66H[7m7[m[44;39H[29;21H[7m30pm 1.57[2[m[59;35H[7m30pm 1.57[2[m[44;39H%[K[K
+
+	[C[K[48;51H[K[50;34H[60;1HDone[K[50;34H[K[52;13H[53;4H
+	[8@[60;1HI-search:[54;9H[60;10H M ...[54;9H[60;12H[K[54;9H
+
+	[60;12Hi ...[56;17H[60;13H[K[56;17H[30;1H.sh "Bibliography"
+[Csp
+Here is a representative selection of recent books on AI.[60;13Hc ...[44;3H[60;14Hh ...[44;3H[60;15H[K[44;3H[30;3Hp[K
+ti-4n
+[Caugeland, J. (1985)[K
+[Cul
+Artificial intelligence: the very idea.[K
+MIT Press, Cambridge, MA.
+.sp[K
+ti-4n
+Kanal, L.N. and Lemmer, J.F.\0(Editors) (1986)
+[Cul
+Uncertainty in artificial intelligence.[K
+North Holland, Amsterdam.
+.sp[K
+ti-4n
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1983)
+[Cul
+Machine learning -- an artificial intelligence approach.
+Tioga, Palo Alto, CA.
+.sp[K
+ti-4n
+R.S. Michalski, J.G. Carbonell, and T.M. Mitchell (Editors) (1986)
+\fIMachine learning Volume 2\fP.
+Morgan Kaufmann, Los Altos, CA.
+[Csp
+.ti-4n[K
+T.M. Mitchell, J.G. Carbonell, and R.S. Michalski (Editors) (1986)
+[Cul[K
+Machine learning -- a guide to current research.
+Kluwer, Boston, MA.
+						[7m35[m[44;10H[60;1HMark set[K[44;10H[60;1H[K[44;10H[60;1HMark set[44;1H[60;1H[K[44;2H[C[C[60;1HDefining kbd macro...[44;1H[29;54H[7m Def) ----All[m[59;60H[7m Def)----35%[m[44;1H[60;1HMark set[K[44;1H[60;1HI-search:[44;1H[60;10H   ...[44;1H[60;10H[K[44;1H[6`[60;10H  ^J ...[44;6H[60;1HFailing I-search:  ^J[44;6H[60;1HMark set[K[44;6H[60;1H[K[44;6H[60;1HKeyboard macro defined[44;6H[29;54H[7m) ----All----[m[59;60H[7m)----35%----[m[44;6H[60;1HAuto-saving...[K[44;6H[60;1HKeyboard macro defined[44;6H[60;1H[K[43;6H[29;22H[7m1pm 2.35[5[m[59;36H[7m1pm 2.35[5[m[43;6H[29;22H[7m2pm 1.36[2[m[59;36H[7m2pm 1.36[2[m[43;6H[29;22H[7m3pm 1.12[m[59;36H[7m3pm 1.12[m[43;6H[29;22H[7m4pm 0.88[1[m[59;36H[7m4pm 0.88[1[m[43;6H[29;22H[7m5pm 0.76[m[59;36H[7m5pm 0.76[m[43;6H[29;22H[7m6pm 0.81[2[m[59;36H[7m6pm 0.81[2[m[43;6H[29;22H[7m7pm 0.72[1[m[59;36H[7m7pm 0.72[1[m[43;6H[29;22H[7m8pm 0.85[2[m[59;36H[7m8pm 0.85[2[m[43;6H[29;22H[7m9pm 0.73[1[m[59;36H[7m9pm 0.73[1[m[43;6H[29;21H[7m40pm 1.18[2[m[59;35H[7m40pm 1.18[2[m[43;6H[29;22H[7m1pm 0.64[1[m[59;36H[7m1pm 0.64[1[m[43;6H[29;22H[7m2pm 1.44[2[m[59;36H[7m2pm 1.44[2[m[43;6H[29;22H[7m3pm 1.18[m[59;36H[7m3pm 1.18[m[43;6H[29;22H[7m4pm 1.08[1[m[59;36H[7m4pm 1.08[1[m[43;6H[29;22H[7m5pm 0.83[m[59;36H[7m5pm 0.83[m[43;6H[29;22H[7m6pm 0.65[2[m[59;36H[7m6pm 0.65[2[m[43;6H[29;22H[7m7pm 0.73[m[59;36H[7m7pm 0.73[m[43;6H[29;22H[7m8pm 0.76[1[m[59;36H[7m8pm 0.76[1[m[43;6H[29;22H[7m9pm 0.97[m[59;36H[7m9pm 0.97[m[43;6H[29;21H[7m50pm 1.93[29]  (RMAIL 38/38 Narrow) ----All[m[59;35H[7m50pm 1.93[29]   (Text Fill)----35%[m[43;6H[29;22H[7m1pm 2.28[m[59;36H[7m1pm 2.28[m[43;6H[29;22H[7m2pm 2.40[25[m[59;36H[7m2pm 2.40[25[m[43;6H[29;22H[7m3pm 1.71[24[m[59;36H[7m3pm 1.71[24[m[43;6H[29;22H[7m4pm 2.29[18[m[59;36H[7m4pm 2.29[18[m[43;6H[H[60;1HLoading sendmail...[H[60;20Hdone[H[60;9Hmailalias...[K[H[60;21Hdone[H[60;1H[K[HTo:[K
+Subject:[K
+FCC: mbox.out[K
+--text follows this line--
+
+[K
+[K
+[K
+[K
+
+[K[29;4H[7m--Emacs: *mail*              3:54pm 2.29[18]   (Mail Fill)----All[m[1;5H g[29;3H[7m**[m[1;6Haines
+stuff[4;27H
+[29;36H[7m5pm 4.5[m[59;36H[7m5pm 4.5[m[5;1H[29;36H[7m6pm 4.05[m[59;36H[7m6pm 4.05[m[5;1H[29;36H[7m7pm 3.83[17[m[59;36H[7m7pm 3.83[17[m[5;1H[29;36H[7m8pm 4.06[20[m[59;36H[7m8pm 4.06[20[m[5;1H[29;36H[7m9pm 4.99[18[m[59;36H[7m9pm 4.99[18[m[5;1H[29;33H[7m4:00pm 5.10[16[m[59;33H[7m4:00pm 5.10[16[m[5;1H[29;36H[7m1pm 4.73[18[m[59;36H[7m1pm 4.73[18[m[5;1Hplease sti[K[K[K	leave me the Bratko[Cstuff about extending ID3 to deal[Cwith intervals,
+and the b[K	definitive book on decision trees.
+Have a good trip, wherever
+ian
+[29;36H[7m2pm 4.75[15[m[59;36H[7m2pm 4.75[15[m[9;1H[60;1HSending...[9;1H[60;1HWrote /vaxb.userb/profs/ian/mbox.out[9;1H[60;1HSending...done[K[9;1H[29;3H[7m--[m[9;1H[60;1H[K[9;1H[43;6H
+[60;1HDefining kbd macro...[44;1H[29;61H[7m Def)----All[m[59;61H[7m Def)----35%[m[44;1H[60;1HMark set[K[44;1H[60;1HI-search:[44;1H[60;10H   ...[44;1H[60;1HMark set[K[44;1H[60;1H[K[44;1H[6`[1P[4P[10`[C[1@,[1@ [60;1HMark set[44;12H[4@R.S.[29;36H[7m3pm 3.22[29[m[59;36H[7m3pm 3.22[29[m[44;16H[60;1HI-search:   ...[44;16H[60;10H[K[44;16H	[C[60;1HMark set[K[44;18H[60;1H[K[44;18H[60;1HKeyboard macro defined[44;18H[29;61H[7m)----All----[m[59;61H[7m)----35%----[m[44;18H[60;1H[K[44;18H[60;1HC-z-[44;18H[60;1H[K[44;18HCarbonell, J.G[1@.[35`[38`[CMitchell, T.M[1@.[C[45;4H[46;54H[48;4H
+	
+Michalski, R.S., Carbonell, J.[2@G.[39`Mitchell, T.M[1@.[C
+				[53;4H
+
+Mitchell, T.M[1@.	Carbonell, J.G., and Michalski, R.[2@S.[C
+
+
+
+
+Wrote /vaxb.userb/profs/ian/courses/670/info.sheet[55;54H[59;3H[7m--[m[55;54H[29;36H[7m4pm 3.07[m[59;36H[7m4pm 3.07[m[55;54H
+
+
+
+
+[K[55;54H[60;0;2;60p[46;1H[2M[35;1H[1M[60;0;0;60p[32;1HMichalski, R.S., Carbonell, J.G., and Mitchell, T.M. (Editors) (1986)
+\fIMachine learning Volume 2\fP.
+Morgan Kaufmann, Los Altos, CA.[K
+
+
+Mitchell, T.M., Carbonell, J.G[23@., and Michalski, R.S. [30;1HVAXB roff -a2 ~/courses/670/info.sheet; lpq -Palw2
+no entries
+[K
+vaxb: sending to vaxa[K
+Rank   Owner      Job  Files                                 Total Size
+1st    ian        287  (standard input)                      20252 bytes
+VAXB[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[7m--**-Emacs: *shell*             4:04pm 3.07[29]   (Shell: run)----All----------[m[56;1H.sp
+.ti-4n
+Nilsson, N.J.[59;66H[7m41[m[36;6Hcd ~/courses/670[60;1HDirectory /vaxb.userb/profs/ian/courses/670/[36;22H[60;1H[K[37;1HroffVAXB roff  -a2 info.sheet; lpq -Palw2
+[29;36H[7m5pm 3.39[25[m[44;36H[7m5pm 3.39[25[m[59;36H[7m5pm 3.39[25[m[38;1Halw2 is ready and printing
+Rank   Owner      Job  Files                                 Total Size
+active andrews    772  info.dvi, regs.dvi                    20308 bytes
+
+vaxb: sending to vaxa
+[60;0;18;60p[30;1H[7M[60;0;0;60p[36;1HRank   Owner      Job  Files                                 Total Size[44;67H[7mBot[m[37;1HVAXB[C[29;36H[7m6pm 2.44[24[m[44;36H[7m6pm 2.44[24[m[59;36H[7m6pm 2.44[24[m[37;6H[29;36H[7m7pm 3.68[19[m[44;36H[7m7pm 3.68[19[m[59;36H[7m7pm 3.68[19[m[37;6H[29;36H[7m8pm 5.36[17[m[44;36H[7m8pm 5.36[17[m[59;36H[7m8pm 5.36[17[m[37;6H[29;36H[7m9pm 5.40[m[44;36H[7m9pm 5.40[m[59;36H[7m9pm 5.40[m[37;6H[29;35H[7m10pm 4.73[18[m[44;35H[7m10pm 4.73[18[m[59;35H[7m10pm 4.73[18[m[37;6H[29;36H[7m1pm 5.09[15[m[44;36H[7m1pm 5.09[15[m[59;36H[7m1pm 5.09[15[m[37;6H[29;36H[7m2pm 4.73[16[m[44;36H[7m2pm 4.73[16[m[59;36H[7m2pm 4.73[16[m[37;6H[29;36H[7m3pm 3.97[18[m[44;36H[7m3pm 3.97[18[m[59;36H[7m3pm 3.97[18[m[37;6H[29;36H[7m4pm 3.09[9]   (Mail Fill)----All-[m[44;36H[7m4pm 3.09[9]   (Shell: run)----Bot-[m[59;36H[7m4pm 3.09[9]   (Text Fill)----41%-[m[37;6H[29;36H[7m5pm 1.71[5[m[44;36H[7m5pm 1.71[5[m[59;36H[7m5pm 1.71[5[m[37;6H[29;36H[7m6pm 2.38[7[m[44;36H[7m6pm 2.38[7[m[59;36H[7m6pm 2.38[7[m[37;6H[29;36H[7m7pm 1.75[2[m[44;36H[7m7pm 1.75[2[m[59;36H[7m7pm 1.75[2[m[37;6H[29;36H[7m8pm 1.00[1[m[44;36H[7m8pm 1.00[1[m[59;36H[7m8pm 1.00[1[m[37;6H[29;36H[7m9pm 0.66[m[44;36H[7m9pm 0.66[m[59;36H[7m9pm 0.66[m[37;6H[29;35H[7m20pm 0.76[2[m[44;35H[7m20pm 0.76[2[m[59;35H[7m20pm 0.76[2[m[37;6H[29;36H[7m1pm 0.45[0[m[44;36H[7m1pm 0.45[0[m[59;36H[7m1pm 0.45[0[m[37;6H[29;36H[7m2pm 0.38[2[m[44;36H[7m2pm 0.38[2[m[59;36H[7m2pm 0.38[2[m[37;6H[29;36H[7m3pm 0.54[m[44;36H[7m3pm 0.54[m[59;36H[7m3pm 0.54[m[37;6H[29;36H[7m4pm 0.64[0[m[44;36H[7m4pm 0.64[0[m[59;36H[7m4pm 0.64[0[m[37;6H[29;36H[7m5pm 0.91[2[m[44;36H[7m5pm 0.91[2[m[59;36H[7m5pm 0.91[2[m[37;6H[29;36H[7m6pm 1.21[1[m[44;36H[7m6pm 1.21[1[m[59;36H[7m6pm 1.21[1[m[37;6H[29;36H[7m7pm 0.98[m[44;36H[7m7pm 0.98[m[59;36H[7m7pm 0.98[m[37;6H[29;36H[7m8pm 1.37[m[44;36H[7m8pm 1.37[m[59;36H[7m8pm 1.37[m[37;6H[29;36H[7m9pm 1.23[2[m[44;36H[7m9pm 1.23[2[m[59;36H[7m9pm 1.23[2[m[37;6H[29;35H[7m30pm 1.90[4[m[44;35H[7m30pm 1.90[4[m[59;35H[7m30pm 1.90[4[m[37;6H[29;36H[7m1pm 1.39[3[m[44;36H[7m1pm 1.39[3[m[59;36H[7m1pm 1.39[3[m[37;6H[29;36H[7m2pm 1.06[1[m[44;36H[7m2pm 1.06[1[m[59;36H[7m2pm 1.06[1[m[37;6H[29;36H[7m3pm 0.65[2[m[44;36H[7m3pm 0.65[2[m[59;36H[7m3pm 0.65[2[m[37;6H[29;36H[7m4pm 1.39[1[m[44;36H[7m4pm 1.39[1[m[59;36H[7m4pm 1.39[1[m[37;6H[29;36H[7m5pm 2.55[3[m[44;36H[7m5pm 2.55[3[m[59;36H[7m5pm 2.55[3[m[37;6H[29;36H[7m6pm 1.57[m[44;36H[7m6pm 1.57[m[59;36H[7m6pm 1.57[m[37;6H[29;36H[7m7pm 1.00[1[m[44;36H[7m7pm 1.00[1[m[59;36H[7m7pm 1.00[1[m[37;6H[29;36H[7m8pm 0.68[m[44;36H[7m8pm 0.68[m[59;36H[7m8pm 0.68[m[37;6H[29;36H[7m9pm 0.54[m[44;36H[7m9pm 0.54[m[59;36H[7m9pm 0.54[m[37;6H[29;35H[7m40pm 0.96[m[44;35H[7m40pm 0.96[m[59;35H[7m40pm 0.96[m[37;6H[29;36H[7m1pm 1.37[3[m[44;36H[7m1pm 1.37[3[m[59;36H[7m1pm 1.37[3[m[37;6H[29;36H[7m2pm 1.28[1[m[44;36H[7m2pm 1.28[1[m[59;36H[7m2pm 1.28[1[m[37;6H[29;36H[7m3pm 1.93[3[m[44;36H[7m3pm 1.93[3[m[59;36H[7m3pm 1.93[3[m[37;6H[29;36H[7m4pm 2.10 Mail[3]   (Mail Fill)----All[m[44;36H[7m4pm 2.10 Mail[3]   (Shell: run)----Bot[m[59;36H[7m4pm 2.10 Mail[3]   (Text Fill)----41%[m[37;6H[29;36H[7m5pm 1.04 Mail[1[m[44;36H[7m5pm 1.04 Mail[1[m[59;36H[7m5pm 1.04 Mail[1[m[37;6H[29;36H[7m6pm 0.58 Mail[0[m[44;36H[7m6pm 0.58 Mail[0[m[59;36H[7m6pm 0.58 Mail[0[m[37;6H[29;36H[7m7pm 0.37[m[44;36H[7m7pm 0.37[m[59;36H[7m7pm 0.37[m[37;6H[29;36H[7m8pm 0.36 Mail[1[m[44;36H[7m8pm 0.36 Mail[1[m[59;36H[7m8pm 0.36 Mail[1[m[37;6H[29;36H[7m9pm 1.73 Mail[3[m[44;36H[7m9pm 1.73 Mail[3[m[59;36H[7m9pm 1.73 Mail[3[m[37;6H[29;35H[7m50pm 1.18 Mail[2[m[44;35H[7m50pm 1.18 Mail[2[m[59;35H[7m50pm 1.18 Mail[2[m[37;6H[29;36H[7m1pm 1.0[m[44;36H[7m1pm 1.0[m[59;36H[7m1pm 1.0[m[37;6H[29;36H[7m2pm 0.53 Mail[0[m[44;36H[7m2pm 0.53 Mail[0[m[59;36H[7m2pm 0.53 Mail[0[m[37;6H[29;36H[7m3pm 2.00 Mail[3[m[44;36H[7m3pm 2.00 Mail[3[m[59;36H[7m3pm 2.00 Mail[3[m[37;6H[52;54H[9;1Hg[29;3H[7m**[m[9;2H[60;1HAuto-saving...[9;2H[60;15Hdone[9;2H[60;1H[K[9;1H[K[HFrom: Danhua Mo <mo@vaxb.LOCAL>
+Date: 28 Aug 1987 14:00-MST
+Subject: paper
+To: ian@vaxb.LOCAL[K
+[K
+Hi. I hate to bother you again, but it would be highly appreciated
+if you would take a look at the final draft of my paper. I put it in
+your mbox on the 7th floor. I am very busy at making the format right
+now because the deadline is on Monday.
+
+---mo[29;3H[7m- Emacs: RMAIL  4:53pm 2.00 Mail[3]  (RMAIL 38/38 Narrow) ----All-----[m[H[60;1HCounting new messages...[H[60;25Hdone (1)[H[60;1HWrote /vaxb.userb/profs/ian/RMAIL[H[60;1H1 new message read[K[HDate: Fri, 28 Aug 87 16:43:11 MDT
+From: Mr. Invisible <kittlitz@vaxb.LOCAL>
+To: ian@vaxb.LOCAL
+[K
+# to unbundle, sh this file
+echo inter.c 1>&2[K
+ cat >inter.c <<'End of inter.c'[K
+#include "weird.h"[K
+#define MAXLINES 255               /* number of lines read in a time = max # of\[Clines
+                                      of one command result */
+
+typedef char FILENAME[MAXSTR+1];
+extern char *homep;
+FILENAME namearray[MAXLINES+1];        /* array of file lines */
+FILENAME *namep = namearray, *memp = namearray;
+FILE *comfp;
+FILE *resfp;
+FILE *locfp;
+struct rightentry *ihead, *itail;   /* pointers to list of commands to be saved\[C*/
+int lineno = 0;
+short done = 0, abortit = 0, save  = 0, haveold = 0;
+
+inter(result, command, location)
+
+char *result, *command, *location;
+
+		[7m9/39 Narrow) ----Top[m[H[29;22H[7m4pm 1.88[2]  (RMAIL 39/39 Narrow) ----Top-----[m[44;36H[7m4pm 1.88[2]   (Shell: run)----Bot-----[m[59;36H[7m4pm 1.88[2]   (Text Fill)----41%-----[m[H[60;1HNo following nondeleted message[H[60;1H[K[HFrom: Danhua Mo <mo@vaxb.LOCAL>[K
+Date: 28 Aug 1987 14:00-MST[K
+Subject: paper[K
+To: ian@vaxb.LOCAL
+[K
+Hi. I hate to bother you again, but it would be highly appreciated
+if you would take a look at the final draft of my paper. I put it in
+your mbox on the 7th floor. I am very busy at making the format right
+now because the deadline is on Monday.[K
+[K
+---mo[K
+
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+
+[K
+
+[K[29;43H[7m8/39 Narrow) ----All[m[HDate: Fri, 28 Aug 87 16:43:11 MDT
+From: Mr. Invisible <kittlitz@vaxb.LOCAL>
+To: ian@vaxb.LOCAL
+[K
+# to unbundle, sh this file
+echo inter.c 1>&2[K
+ cat >inter.c <<'End of inter.c'[K
+#include "weird.h"[K
+#define MAXLINES 255               /* number of lines read in a time = max # of\[Clines
+                                      of one command result */
+
+typedef char FILENAME[MAXSTR+1];
+extern char *homep;
+FILENAME namearray[MAXLINES+1];        /* array of file lines */
+FILENAME *namep = namearray, *memp = namearray;
+FILE *comfp;
+FILE *resfp;
+FILE *locfp;
+struct rightentry *ihead, *itail;   /* pointers to list of commands to be saved\[C*/
+int lineno = 0;
+short done = 0, abortit = 0, save  = 0, haveold = 0;
+
+inter(result, command, location)
+
+char *result, *command, *location;[29;43H[7m9/39 Narrow) ----Top[m[H[29;22H[7m5pm 1.2[m[44;36H[7m5pm 1.2[m[59;36H[7m5pm 1.2[m[H[29;22H[7m6pm 0.63[0[m[44;36H[7m6pm 0.63[0[m[59;36H[7m6pm 0.63[0[m[H[60;1HSave file /vaxb.userb/profs/ian/RMAIL? (y or n)[H[60;48H n[H[60;1H[K[H[60;1HCheck all saved[H[60;1H[K[>52l[>37h[60;0;0;60p[60;1H[J[1]  + Done                 ( roff -a2 assignments; lpq -Palw2 )
+VAXB ^Dlogout
+You are still logged in somewhere
+[H[J
